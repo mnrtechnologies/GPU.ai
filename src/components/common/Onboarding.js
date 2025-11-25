@@ -2,9 +2,9 @@ import React from "react";
 import MIT from "../../assets/companyLogos/mit.jpg";
 import DeepInfra from "../../assets/companyLogos/deepinfra.png";
 import Neets from "../../assets/companyLogos/neet.jpg";
-import DeepMotion from "../../assets/companyLogos/deepmotion.png";
+import DeepMotion from "../../assets/companyLogos/deepmotion.jpg";
 import Exabits from "../../assets/companyLogos/exanits.png";
-import Cornell from "../../assets/companyLogos/Cornell-University-Logo.png";
+import Cornell from "../../assets/companyLogos/Cornell-University-Logo.jpg";
 import NYU from "../../assets/companyLogos/nyu.png";
 import USE from "../../assets/companyLogos/use.png";
 

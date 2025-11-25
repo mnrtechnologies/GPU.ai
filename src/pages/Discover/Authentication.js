@@ -111,9 +111,9 @@ const Authentication = () => {
         <ArchitectureCompnenet />
       </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
+      {/* <FadeInWhenVisible>
         <Onboarding />
-      </FadeInWhenVisible>
+      </FadeInWhenVisible> */}
 
       <FadeInWhenVisible>
         <Onboarding
