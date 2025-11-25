@@ -73,9 +73,9 @@ const CloudPlatform = () => {
         <BlackwellComponent />
       </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
+     
         <ArchitectureCompnenet />
-      </FadeInWhenVisible>
+      
 
       <FadeInWhenVisible>
         <Onboarding />

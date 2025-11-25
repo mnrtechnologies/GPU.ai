@@ -31,11 +31,11 @@ const Services = () => {
         <BlackwellComponent />
       </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
+
         <div className="space-y-12">
           <ArchitectureCompnenet />
         </div>
-      </FadeInWhenVisible>
+
 
       <FadeInWhenVisible>
         <Onboarding2

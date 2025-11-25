@@ -107,9 +107,9 @@ const Authentication = () => {
         <BlackwellComponent />
       </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
+
         <ArchitectureCompnenet />
-      </FadeInWhenVisible>
+  
 
       {/* <FadeInWhenVisible>
         <Onboarding />

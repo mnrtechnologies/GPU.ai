@@ -128,9 +128,9 @@ const Performance = () => {
         <BlackwellComponent />
       </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
+    
         <ArchitectureCompnenet />
-      </FadeInWhenVisible>
+      
 
       <FadeInWhenVisible>
         <Onboarding />

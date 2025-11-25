@@ -97,11 +97,11 @@ const GPUServer = () => {
       </FadeInWhenVisible>
 
       {/* Architecture Section */}
-      <FadeInWhenVisible>
+
         <div className="space-y-12">
           <ArchitectureCompnenet />
         </div>
-      </FadeInWhenVisible>
+  
 
       {/* Onboarding Section */}
       <FadeInWhenVisible>
