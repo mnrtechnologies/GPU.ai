@@ -142,7 +142,7 @@ const Home = () => {
 
       <FadeInWhenVisible><AIComputing /></FadeInWhenVisible>
       <FadeInWhenVisible><BlackwellComponent /></FadeInWhenVisible>
-      <FadeInWhenVisible><ArchitectureCompnenet /></FadeInWhenVisible>
+      <ArchitectureCompnenet />
       <FadeInWhenVisible><Testimonial /></FadeInWhenVisible>
       <FadeInWhenVisible><Footer /></FadeInWhenVisible>
     </div>
