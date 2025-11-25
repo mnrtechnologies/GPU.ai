@@ -2,7 +2,7 @@ import React from "react";
 
 const GlobalPresence = () => {
   return (
-    <main className="max-w-7xl font-mono mx-auto px-6 py-12 bg-white text-gray-900">
+    <main className="max-w-7xl font-sans mx-auto px-6 py-12 bg-white text-gray-900">
       <h1 className="text-center text-4xl sm:text-5xl font-semibold mb-4">
         Global Presence
       </h1>

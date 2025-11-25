@@ -4,6 +4,7 @@ import Footer from "../../components/common/Footer";
 import Onboarding from "../../components/common/Onboarding";
 import BlackwellComponent from "../../components/common/BlackwellComponent";
 import ArchitectureCompnenet from "../../components/common/ArchitectureCompnenet";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
 
 const PerformanceCard = ({
   icon,
@@ -65,58 +66,75 @@ const data = [
 const Performance = () => {
   return (
     <div>
-      <Hero
-        title="Unmatched Performance"
-        description="Experience industry-leading GPU performance with our optimized infrastructure. From high-throughput training to low-latency inference, we deliver exceptional results."
-        gradientRight="rgba(0,0,0,0.05)"
-        gradientBottom="rgba(0,0,0,0.05)"
-        bgColor="bg-gray-100"
-        titleColor="text-gray-800"
-        descriptionColor="text-gray-500"
-      />
 
-      <div className=" font-mono">
-        <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-3 gap-8">
-          {data.map((item, index) => (
-            <PerformanceCard key={index} {...item} />
-          ))}
+      {/* Performance Hero */}
+      <FadeInWhenVisible>
+        <Hero
+          title="Unmatched Performance"
+          description="Experience industry-leading GPU performance with our optimized infrastructure. From high-throughput training to low-latency inference, we deliver exceptional results."
+          gradientRight="rgba(0,0,0,0.05)"
+          gradientBottom="rgba(0,0,0,0.05)"
+          bgColor="bg-gray-100"
+          titleColor="text-gray-800"
+          descriptionColor="text-gray-500"
+        />
+      </FadeInWhenVisible>
+
+      {/* Cards Section */}
+      <FadeInWhenVisible>
+        <div className="font-sans">
+          <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-3 gap-8">
+            {data.map((item, index) => (
+              <PerformanceCard key={index} {...item} />
+            ))}
+          </div>
         </div>
-      </div>
+      </FadeInWhenVisible>
 
-      <Hero
-        title="Pricing"
-        description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-        buttons={[
-          {
-            label: "Explore",
-            className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-     
-    bg-blue-900
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-white/5 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
+      {/* Pricing Hero */}
+      <FadeInWhenVisible>
+        <Hero
+          title="Pricing"
+          description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads."
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+          buttons={[
+            {
+              label: "Explore",
+              className:
+                "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+              onClick: () => console.log("Explore clicked"),
+            },
+            {
+              label: "Contact Us",
+              className: `
+                  bg-blue-900
+                  backdrop-blur-md 
+                  text-white 
+                  px-6 py-3 
+                  rounded-md text-lg font-sans 
+                  transition 
+                  hover:bg-white/5 
+                  hover:text-white
+                `,
+              onClick: () => console.log("Contact Us clicked"),
+            },
+          ]}
+        />
+      </FadeInWhenVisible>
 
-      <BlackwellComponent />
+      {/* Additional Components */}
+      <FadeInWhenVisible>
+        <BlackwellComponent />
+      </FadeInWhenVisible>
 
-      <ArchitectureCompnenet />
+      <FadeInWhenVisible>
+        <ArchitectureCompnenet />
+      </FadeInWhenVisible>
 
-      <Onboarding />
+      <FadeInWhenVisible>
+        <Onboarding />
+      </FadeInWhenVisible>
 
       <Footer />
     </div>

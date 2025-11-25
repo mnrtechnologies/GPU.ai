@@ -19,6 +19,8 @@ import {
   BrainCircuit,
 } from "lucide-react";
 import WhyChooseUs from "../../components/WhyNovacore/WhyChooseUs";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
+
 
 const performanceData = [
   { title: "HBM3e Memory", value: "141GB", icon: MemoryStick },
@@ -37,53 +39,67 @@ const performanceData = [
 const Why = () => {
   return (
     <div>
-      <Hero
-        title="Why GPU.ai"
-        description="GPU.ai offers ultra-competitive pricing for large-scale deep learning, providing unrivaled access to GPUs and high-speed, adaptable infrastructure through premier data centers in the United States and India. Effortlessly deploy containers or virtual machines with the latest NVIDIA GPUs, delivering the computational power needed for AI training, fine-tuning, and inference. Our infrastructure ensures high performance and scalability to support your most demanding AI workloads. Deploy your models using Docker, Kubernetes, or RESTful APIs. A dedicated engineer will work with you to identify the best solution for your needs. Operate on any machine learning framework. Choose from an extensive collection of pre-built templates, or bring your own configuration."
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-        buttons={[
-          {
-            label: "Explore",
-            className: "bg-white text-[#a349a4] hover:bg-blue-100",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-    border border-white 
-    bg-white/10 
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-white/5 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
+      <FadeInWhenVisible>
+        <Hero
+          title="Why GPU.ai"
+          description="GPU.ai offers ultra-competitive pricing for large-scale deep learning, providing unrivaled access to GPUs and high-speed, adaptable infrastructure through premier data centers in the United States and India. Effortlessly deploy containers or virtual machines with the latest NVIDIA GPUs, delivering the computational power needed for AI training, fine-tuning, and inference. Our infrastructure ensures high performance and scalability to support your most demanding AI workloads. Deploy your models using Docker, Kubernetes, or RESTful APIs. A dedicated engineer will work with you to identify the best solution for your needs. Operate on any machine learning framework. Choose from an extensive collection of pre-built templates, or bring your own configuration."
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+          buttons={[
+            {
+              label: "Explore",
+              className: "bg-white text-[#a349a4] hover:bg-blue-100",
+              onClick: () => console.log("Explore clicked"),
+            },
+            {
+              label: "Contact Us",
+              className: `
+                border border-white 
+                bg-white/10 
+                backdrop-blur-md 
+                text-white 
+                px-6 py-3 
+                rounded-md text-lg font-sans 
+                transition 
+                hover:bg-white/5 
+                hover:text-white
+              `,
+              onClick: () => console.log("Contact Us clicked"),
+            },
+          ]}
+        />
+      </FadeInWhenVisible>
 
-      <WhyChooseUs />
+      <FadeInWhenVisible>
+        <WhyChooseUs />
+      </FadeInWhenVisible>
 
-      <GpuArchitecture />
+      <FadeInWhenVisible>
+        <GpuArchitecture />
+      </FadeInWhenVisible>
 
-      <PerformanceFeatures performanceData={performanceData} />
+      <FadeInWhenVisible>
+        <PerformanceFeatures performanceData={performanceData} />
+      </FadeInWhenVisible>
 
-      <ServicesGrid />
+      <FadeInWhenVisible>
+        <ServicesGrid />
+      </FadeInWhenVisible>
 
-      <Onboarding
-        bgColor="#a349a4" // Sky-600 color value
-        gridColor="rgba(255, 255, 255, 0.05)" // RGBA for grid lines
-        titleColor="#ffffff" // White for title
-        descriptionColor="#ffffff" // White for description
-        btnColor="#ffffff" // Custom color for the button
-        btnTextColor="#a349a4" // White for button text
-      />
+      <FadeInWhenVisible>
+        <Onboarding
+          bgColor="#a349a4"
+          gridColor="rgba(255, 255, 255, 0.05)"
+          titleColor="#ffffff"
+          descriptionColor="#ffffff"
+          btnColor="#ffffff"
+          btnTextColor="#a349a4"
+        />
+      </FadeInWhenVisible>
 
-      <Footer />
+      <FadeInWhenVisible>
+        <Footer />
+      </FadeInWhenVisible>
     </div>
   );
 };

@@ -7,6 +7,7 @@ import NovacoreCompliance from "../../components/Legal/NovacoreCompliance";
 import LegalCenter from "../../components/Legal/LegalCenter";
 import LegalTerms from "../../components/Legal/LegalTerms";
 import FAQ from "../../components/Legal/FAQ";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
 
 const Legal = () => {
   const stats = [
@@ -17,19 +18,40 @@ const Legal = () => {
   ];
   return (
     <div>
-      <HeroSection
-        heading="Legal and Compliance Framework"
-        subheading="Understand our terms, policies, and commitments to security, privacy, and compliance."
-        button1Text="View FAQs →"
-        button2Text="Terms & Conditions"
-        stats={stats}
-      />
-      <LegalCenter />
-      <LegalTerms/>
-      <FAQ/>
-      <NovacoreCompliance />
-      <InnovationSafety />
-      <LegalInfo />
+      <FadeInWhenVisible>
+        <HeroSection
+          heading="Legal and Compliance Framework"
+          subheading="Understand our terms, policies, and commitments to security, privacy, and compliance."
+          button1Text="View FAQs →"
+          button2Text="Terms & Conditions"
+          stats={stats}
+        />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <LegalCenter />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <LegalTerms />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <FAQ />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <NovacoreCompliance />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <InnovationSafety />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <LegalInfo />
+      </FadeInWhenVisible>
+
       <Footer />
     </div>
   );

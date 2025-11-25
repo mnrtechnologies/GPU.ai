@@ -79,7 +79,7 @@ const services = [
 
 const ServiceCards = () => {
   return (
-    <div className="bg-white font-mono px-6 py-16 max-w-7xl mx-auto">
+    <div className="bg-white font-sans px-6 py-16 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div key={index} className={`${service.bg} rounded-xl p-8`}>

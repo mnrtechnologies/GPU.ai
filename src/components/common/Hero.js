@@ -23,12 +23,12 @@ const Hero = ({
     >
       <div className="text-center max-w-4xl py-16 mt-20 sm:py-20 md:py-32 px-2">
         <h1
-          className={`text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-mono font-bold mb-4 sm:mb-6 ${titleColor} break-words`}
+          className={`text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-sans font-bold mb-4 sm:mb-6 ${titleColor} break-words`}
         >
           {title}
         </h1>
         <p
-          className={`text-sm sm:text-base md:text-lg lg:text-xl font-mono leading-relaxed mb-8 sm:mb-10 ${descriptionColor} max-w-xl mx-auto`}
+          className={`text-sm sm:text-base md:text-lg lg:text-xl font-sans leading-relaxed mb-8 sm:mb-10 ${descriptionColor} max-w-xl mx-auto`}
         >
           {description}
         </p>
@@ -37,7 +37,7 @@ const Hero = ({
             {buttons.map((btn, idx) => (
               <button
                 key={idx}
-                className={`w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 rounded-md text-sm sm:text-base font-mono transition ${btn.className}`}
+                className={`w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 rounded-md text-sm sm:text-base font-sans transition ${btn.className}`}
                 onClick={btn.onClick}
                 type="button"
               >

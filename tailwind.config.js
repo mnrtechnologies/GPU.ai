@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         mono: ["'IBM Plex Mono'", "monospace"],
+        sans: ["Helvetica Neue", "Helvetica", "Segoe UI", "Roboto", "Arial", "sans-serif"]
       },
     },
   },

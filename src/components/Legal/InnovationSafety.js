@@ -2,7 +2,7 @@ import React from "react";
 
 const InnovationSafety = () => {
   return (
-    <main className="max-w-[1160px] mx-auto mt-16 px-5 font-mono text-[#0a0a0a]">
+    <main className="max-w-[1160px] mx-auto mt-16 px-5 font-sans text-[#0a0a0a]">
       <section
         className="bg-[#a349a2] rounded-xl p-8 text-white text-[13px] leading-[1.6] grid grid-cols-1 gap-6"
         style={{

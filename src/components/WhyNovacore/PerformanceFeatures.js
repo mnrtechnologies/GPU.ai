@@ -2,7 +2,7 @@
 
 const PerformanceFeatures = ({performanceData,title="Performance Features", description="Industry-leading specifications of our B200 GPU architecture, delivering unprecedented performance for AI and HPC workloads"}) => {
   return (
-    <div className="bg-white text-[#1f2937] font-mono">
+    <div className="bg-white text-[#1f2937] font-sans">
       <div className="max-w-7xl mx-auto p-6 sm:p-10 bg-[#f0f1f3] rounded-2xl mt-10 mb-10">
         <h2 className="text-center text-4xl font-semibold mb-2">
           {title}

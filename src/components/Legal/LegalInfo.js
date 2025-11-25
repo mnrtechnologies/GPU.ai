@@ -2,7 +2,7 @@ import React from "react";
 
 const LegalInfo = () => {
   return (
-    <main className="max-w-5xl mx-auto mt-10 space-y-8 px-4 bg-white text-gray-800 font-mono">
+    <main className="max-w-5xl mx-auto mt-10 space-y-8 px-4 bg-white text-gray-800 font-sans">
       {/* Partnership & Integration Guidelines */}
       <section className="bg-gray-100 rounded-lg p-6 text-md text-gray-600">
         <h2 className="flex items-center gap-2 font-semibold text-gray-900 mb-3 text-2xl">
@@ -159,7 +159,7 @@ const LegalInfo = () => {
           Contact Legal Department
         </h2>
         <p className="mb-4">For legal inquiries and documentation requests:</p>
-        <div className="flex flex-col md:flex-row md:justify-between text-md font-mono">
+        <div className="flex flex-col md:flex-row md:justify-between text-md font-sans">
           <div className="space-y-4">
             <div>
               <span className="font-semibold">General Legal Inquiries:</span>

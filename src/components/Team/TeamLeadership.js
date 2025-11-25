@@ -2,7 +2,7 @@ import React from "react";
 
 const TeamLeadership = () => {
   return (
-    <div className="bg-white text-[#0B111C] mt-20 flex flex-col items-center justify-center min-h-screen px-4 sm:px-8 md:px-16 font-mono">
+    <div className="bg-white text-[#0B111C] mt-20 flex flex-col items-center justify-center min-h-screen px-4 sm:px-8 md:px-16 font-sans">
       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-center leading-tight tracking-widest max-w-xs sm:max-w-md md:max-w-none">
         The Team<br />and<br />Leadership
       </h1>

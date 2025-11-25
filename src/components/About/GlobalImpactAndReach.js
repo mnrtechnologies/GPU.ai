@@ -2,13 +2,13 @@ import React from "react";
 
 const GlobalImpactAndReach = () => {
   return (
-    <section className="max-w-7xl font-mono mx-auto px-4 py-12">
+    <section className="max-w-7xl font-sans mx-auto px-4 py-12">
       <h2 className="text-center font-extrabold text-4xl leading-[1.1] mb-6">
         Our Global
         <br />
         Impact and Reach
       </h2>
-      <p className="text-center font-mono text-[#4B5563]  text-base max-w-2xl mx-auto mb-16 leading-relaxed">
+      <p className="text-center font-sans text-[#4B5563]  text-base max-w-2xl mx-auto mb-16 leading-relaxed">
         Empowering organizations worldwide with cutting-edge AI infrastructure
         <br />
         and unparalleled performance. From small startups to large

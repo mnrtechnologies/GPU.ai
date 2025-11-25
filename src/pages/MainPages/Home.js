@@ -20,6 +20,8 @@ import AIComputing from "../../components/Home/AiComputing";
 import FeatureCard from "../../components/Home/FeatureCard";
 import HeroSection from "../../components/Home/HeroSection";
 import FeaturesGrid from "../../components/Home/FeaturesGrid";
+import Testimonial from "../../components/Home/Testimonial";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
 
 const services = [
   {
@@ -106,35 +108,43 @@ const CardData = [
 const Home = () => {
   return (
     <div>
-      <HeroSection />
-      <Onboarding />
-      <FeaturesGrid />
-      <HighlightSection
-        heading={`Solutions for\nEvery Scale`}
-        description="From startups to enterprises, our GPU infrastructure powers innovation across industries and empowers businesses to unlock the full potential of AI."
-      />
+      <FadeInWhenVisible><HeroSection /></FadeInWhenVisible>
+      <FadeInWhenVisible><Onboarding /></FadeInWhenVisible>
+      <FadeInWhenVisible><FeaturesGrid /></FadeInWhenVisible>
 
-      <ServicesGrid services={services} />
+      <FadeInWhenVisible>
+        <HighlightSection
+          heading={`Solutions for\nEvery Scale`}
+          description="From startups to enterprises, our GPU infrastructure powers innovation across industries and empowers businesses to unlock the full potential of AI."
+        />
+      </FadeInWhenVisible>
 
-      <HighlightSection
-        heading={`Accelerate Your\nAI Journey`}
-        description="From development to deployment, our platform provides everything you need to succeed in the world of AI. Whether you're a startup or an enterprise, we've got you covered."
-      />
+      <FadeInWhenVisible><ServicesGrid services={services} /></FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <HighlightSection
+          heading={`Accelerate Your\nAI Journey`}
+          description="From development to deployment, our platform provides everything you need to succeed in the world of AI. Whether you're a startup or an enterprise, we've got you covered."
+        />
+      </FadeInWhenVisible>
+
       <div className="flex flex-col sm:flex-row gap-8 justify-center flex-wrap px-4 max-w-screen-sm sm:max-w-none mx-auto">
         {CardData.map((card, index) => (
-          <FeatureCard
-            key={index}
-            title={card.title}
-            description={card.description}
-            imageUrl={card.imageUrl}
-          />
+          <FadeInWhenVisible delay={index * 0.15} key={index}>
+            <FeatureCard
+              title={card.title}
+              description={card.description}
+              imageUrl={card.imageUrl}
+            />
+          </FadeInWhenVisible>
         ))}
       </div>
 
-      <AIComputing />
-      <BlackwellComponent />
-      <ArchitectureCompnenet />
-      <Footer />
+      <FadeInWhenVisible><AIComputing /></FadeInWhenVisible>
+      <FadeInWhenVisible><BlackwellComponent /></FadeInWhenVisible>
+      <FadeInWhenVisible><ArchitectureCompnenet /></FadeInWhenVisible>
+      <FadeInWhenVisible><Testimonial /></FadeInWhenVisible>
+      <FadeInWhenVisible><Footer /></FadeInWhenVisible>
     </div>
   );
 };

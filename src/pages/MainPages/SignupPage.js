@@ -17,7 +17,7 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row font-mono">
+    <div className="min-h-screen flex flex-col md:flex-row font-sans">
       {/* Left side */}
       <AuthForm
         title="Create an account"

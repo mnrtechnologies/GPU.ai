@@ -23,7 +23,7 @@ const steps = [
 
 export default function HowToEnroll() {
   return (
-    <div className="bg-white text-slate-900 font-mono">
+    <div className="bg-white text-slate-900 font-sans">
       <div className="max-w-7xl mx-auto p-8 bg-slate-100 rounded-lg mt-16">
         <h2 className="text-2xl font-semibold mb-8">How to Enroll</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -41,7 +41,7 @@ export default function HowToEnroll() {
       <div className="flex justify-center mt-12 ">
         <button
           type="button"
-          className="bg-[#a349a4] text-white font-mono font-semibold px-12 py-4 rounded-2xl hover:bg-[rgb(162,0,138)] transition-colors"
+          className="bg-[#a349a4] text-white font-sans font-semibold px-12 py-4 rounded-2xl hover:bg-[rgb(162,0,138)] transition-colors"
         >
           Apply Now
         </button>

@@ -4,14 +4,17 @@ import Footer from "../../components/common/Footer";
 import Onboarding from "../../components/common/Onboarding";
 import BlackwellComponent from "../../components/common/BlackwellComponent";
 import ArchitectureCompnenet from "../../components/common/ArchitectureCompnenet";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
+
 
 const SecurityCard = ({ icon, title, description }) => (
-  <div className="border border-gray-200 font-mono rounded-lg p-6">
+  <div className="border border-gray-200 font-sans rounded-lg p-6">
     <i className={`${icon} text-[#a349a4] text-2xl mb-4`} />
     <h3 className="font-bold text-lg mb-2">{title}</h3>
     <p className="text-gray-700 leading-relaxed">{description}</p>
   </div>
 );
+
 const securityFeatures = [
   {
     icon: "fas fa-lock",
@@ -52,7 +55,7 @@ const securityFeatures = [
 ];
 
 const SecurityGrid = () => (
-  <div className="bg-white text-gray-900 font-['Roboto_Mono']">
+  <div className="bg-white text-gray-900 font-['Roboto_sans']">
     <div className="max-w-7xl mx-auto px-6 py-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {securityFeatures.map((item, idx) => (
@@ -63,79 +66,48 @@ const SecurityGrid = () => (
   </div>
 );
 
+
 const SecurityNComplaince = () => {
   return (
     <div>
-      <Hero
-        title="Enterprise-Grade Security"
-        description="State-of-the-art security measures and compliance standards to protect your data and workloads. Built-in encryption, access controls, and continuous monitoring for peace of mind."
-        gradientRight="rgba(0,0,0,0.05)"
-        gradientBottom="rgba(0,0,0,0.05)"
-        bgColor="bg-gray-100"
-        titleColor="text-gray-800"
-        descriptionColor="text-gray-500"
-        buttons={[
-          {
-            label: "Laern More",
-            className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-    border border-white 
-    bg-sky-800 
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-sky-700 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
+      <FadeInWhenVisible>
+        <Hero
+          title="Enterprise-Grade Security"
+          description="State-of-the-art security measures and compliance standards to protect your data and workloads. Built-in encryption, access controls, and continuous monitoring for peace of mind."
+          gradientRight="rgba(0,0,0,0.05)"
+          gradientBottom="rgba(0,0,0,0.05)"
+          bgColor="bg-gray-100"
+          titleColor="text-gray-800"
+          descriptionColor="text-gray-500"
+        />
+      </FadeInWhenVisible>
 
-<SecurityGrid />
+      <SecurityGrid />
 
-      <Hero
-        title="Pricing"
-        description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-        buttons={[
-          {
-            label: "Explore",
-            className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-     
-    bg-blue-900
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-white/5 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
+      <FadeInWhenVisible>
+        <Hero
+          title="Pricing"
+          description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+        />
+      </FadeInWhenVisible>
 
-      <BlackwellComponent />
+      <FadeInWhenVisible>
+        <BlackwellComponent />
+      </FadeInWhenVisible>
 
-      <ArchitectureCompnenet />
+      <FadeInWhenVisible>
+        <ArchitectureCompnenet />
+      </FadeInWhenVisible>
 
-      <Onboarding />
+      <FadeInWhenVisible>
+        <Onboarding />
+      </FadeInWhenVisible>
 
-      <Footer />
+      <FadeInWhenVisible>
+        <Footer />
+      </FadeInWhenVisible>
     </div>
   );
 };

@@ -23,7 +23,7 @@ const CloudFeatureCard = ({ icon, title, description }) => (
       <i className={`${icon} text-[#a349a4] text-lg sm:text-xl mt-1`} />
       <div>
         <h3 className="font-semibold text-base sm:text-lg">{title}</h3>
-        <p className="text-sm sm:text-base font-mono text-gray-700 leading-relaxed">
+        <p className="text-sm sm:text-base font-sans text-gray-700 leading-relaxed">
           {description}
         </p>
       </div>

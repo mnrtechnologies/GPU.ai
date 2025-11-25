@@ -16,7 +16,7 @@ const SpecsCard = ({ label, value, icon: Icon }) => {
 
 const SpecsCards = ({ topSpecs, bottomSpecs }) => {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-10 font-mono text-gray-900 bg-white">
+    <div className="max-w-7xl mx-auto px-6 py-10 font-sans text-gray-900 bg-white">
       {/* Top Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-20">
         {topSpecs.map((item, idx) => (

@@ -29,7 +29,7 @@ const cards = [
 
 const InfoCards = () => {
   return (
-    <div className="bg-white mt-9 font-mono py-12 px-6 max-w-7xl mx-auto flex flex-col sm:flex-row gap-8 justify-center">
+    <div className="bg-white mt-9 font-sans py-12 px-6 max-w-7xl mx-auto flex flex-col sm:flex-row gap-8 justify-center">
       {cards.map((card, index) => (
         <div
           key={index}

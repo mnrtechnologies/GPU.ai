@@ -2,7 +2,7 @@ import React from "react";
 
 const TechnicalSpecs = ({ title, description, specs }) => {
   return (
-    <main className="max-w-7xl mx-auto p-6 md:p-12 rounded-xl bg-[#efefef] mt-10 mb-10 font-mono">
+    <main className="max-w-7xl mx-auto p-6 md:p-12 rounded-xl bg-[#efefef] mt-10 mb-10 font-sans">
       <section className="text-center max-w-xl mx-auto">
         <h1 className="font-extrabold text-gray-700 text-3xl md:text-5xl leading-tight whitespace-pre-line">
           {title}

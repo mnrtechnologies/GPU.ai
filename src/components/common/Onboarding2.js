@@ -2,7 +2,7 @@ import React from "react";
 
 const Onboarding2 = ({ title, description, buttonLabel, onButtonClick }) => {
   return (
-    <div className="max-w-7xl mx-auto px-3 font-mono py-20">
+    <div className="max-w-7xl mx-auto px-3 font-sans py-20">
       <div
         className="rounded-2xl py-20 px-10 text-center text-gray-900"
         style={{

@@ -10,7 +10,7 @@ const Architecture = ({
   specBgColor = "bg-blue-100",
 }) => {
   return (
-    <div className="bg-white p-6 font-mono">
+    <div className="bg-white p-6 font-sans">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-8">
         {/* Pricing & Description */}
         <section className="flex flex-col gap-6 max-w-xs">

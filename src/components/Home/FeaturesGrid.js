@@ -47,7 +47,7 @@ const features = [
 
 const FeaturesGrid = () => {
   return (
-    <div className="max-w-7xl mx-auto px-3 py-20 font-mono">
+    <div className="max-w-7xl mx-auto px-3 py-20 font-sans">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         {/* Big Feature */}
         <div className="md:col-span-2">

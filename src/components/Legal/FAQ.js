@@ -76,7 +76,7 @@ const FAQ = () => {
   };
 
   return (
-    <main className="max-w-[975px] mx-auto mt-10 font-mono bg-[#e6e6e6] rounded-xl p-6">
+    <main className="max-w-[975px] mx-auto mt-10 font-sans bg-[#e6e6e6] rounded-xl p-6">
       <h2 className="text-2xl font-bold flex items-center space-x-2 mb-6">
         <span className="text-[#9b59b6] text-[28px] select-none">❓</span>
         <span>Frequently Asked Questions</span>
@@ -97,14 +97,14 @@ const FAQ = () => {
                 >
                   {index + 1}
                 </div>
-                <p className="text-[15px] leading-snug text-gray-950 font-mono max-w-[280px]">{faq.question}</p>
+                <p className="text-[15px] leading-snug text-gray-950 font-sans max-w-[280px]">{faq.question}</p>
               </div>
               <i
                 className={`fas ${openIndex === index ? 'fa-chevron-up' : 'fa-chevron-down'} text-gray-600 mt-1`}
               ></i>
             </div>
             {openIndex === index && (
-              <p className="mt-4 ml-10 text-[14px] font-mono text-gray-700 leading-relaxed max-w-[350px]">
+              <p className="mt-4 ml-10 text-[14px] font-sans text-gray-700 leading-relaxed max-w-[350px]">
                 {faq.answer}
               </p>
             )}

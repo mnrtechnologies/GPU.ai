@@ -2,7 +2,7 @@ import React from "react";
 
 const MultiGPUComputing = () => {
   return (
-    <div className="bg-white font-mono">
+    <div className="bg-white font-sans">
       <div className="max-w-7xl mx-auto p-8 bg-gray-100 rounded-2xl mt-10 mb-10">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="lg:w-1/2 flex flex-col gap-6">

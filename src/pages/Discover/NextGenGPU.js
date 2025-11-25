@@ -18,6 +18,8 @@ import {
   BatteryCharging,
   BrainCircuit,
 } from "lucide-react";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
+
 
 const performanceData = [
   { title: "HBM3e Memory", value: "141GB", icon: MemoryStick },
@@ -113,61 +115,74 @@ const specsData2 = [
 const NextGenGPU = () => {
   return (
     <div>
-      <Hero
-        title="B200s at your Fingertips"
-        description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-        buttons={[
-          {
-            label: "Explore",
-            className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-     
-    bg-blue-900
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-white/5 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
 
-      <GpuArchitecture />
+      <FadeInWhenVisible>
+        <Hero
+          title="B200s at your Fingertips"
+          description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+          buttons={[
+            {
+              label: "Explore",
+              className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+              onClick: () => console.log("Explore clicked"),
+            },
+            {
+              label: "Contact Us",
+              className: `
+                bg-blue-900
+                backdrop-blur-md 
+                text-white 
+                px-6 py-3 
+                rounded-md text-lg font-sans 
+                transition 
+                hover:bg-white/5 
+                hover:text-white
+              `,
+              onClick: () => console.log("Contact Us clicked"),
+            },
+          ]}
+        />
+      </FadeInWhenVisible>
 
-      <PerformanceFeatures performanceData={performanceData} />
+      <FadeInWhenVisible>
+        <GpuArchitecture />
+      </FadeInWhenVisible>
 
-      <TechnicalSpecs
-        title={`Technical Specs\nand\nBenefits`}
-        description={`The NVIDIA B200 GPUs provide industry-leading performance for AI workloads. With next-gen tensor cores, ultra-fast memory, and optimized efficiency, the B200 is the best choice for researchers, developers, and enterprises.`}
-        specs={specsData1}
-      />
+      <FadeInWhenVisible>
+        <PerformanceFeatures performanceData={performanceData} />
+      </FadeInWhenVisible>
 
-      <TechnicalSpecs
-        title={`Technical Specs\nand\nBenchmarks`}
-        description={`We use the latest B200s from NVIDIA giving the best performance per dollar for all your deep learning needs. Whether you're a researcher, a developer, or a business, we have the right hardware for you. Our B200s are the most powerful and efficient GPUs on the market.`}
-        specs={specsData2}
-      />
+      <FadeInWhenVisible>
+        <TechnicalSpecs
+          title={`Technical Specs\nand\nBenefits`}
+          description={`The NVIDIA B200 GPUs provide industry-leading performance for AI workloads. With next-gen tensor cores, ultra-fast memory, and optimized efficiency, the B200 is the best choice for researchers, developers, and enterprises.`}
+          specs={specsData1}
+        />
+      </FadeInWhenVisible>
 
-      <Onboarding
-        bgColor="#a349a4"
-        gridColor="rgba(255, 255, 255, 0.05)"
-        titleColor="#ffffff"
-        descriptionColor="#ffffff"
-        btnColor="#ffffff"
-        btnTextColor="#a349a4"
-      />
+      <FadeInWhenVisible>
+        <TechnicalSpecs
+          title={`Technical Specs\nand\nBenchmarks`}
+          description={`We use the latest B200s from NVIDIA giving the best performance per dollar for all your deep learning needs. Whether you're a researcher, a developer, or a business, we have the right hardware for you. Our B200s are the most powerful and efficient GPUs on the market.`}
+          specs={specsData2}
+        />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Onboarding
+          bgColor="#a349a4"
+          gridColor="rgba(255, 255, 255, 0.05)"
+          titleColor="#ffffff"
+          descriptionColor="#ffffff"
+          btnColor="#ffffff"
+          btnTextColor="#a349a4"
+        />
+      </FadeInWhenVisible>
 
       <Footer />
+
     </div>
   );
 };

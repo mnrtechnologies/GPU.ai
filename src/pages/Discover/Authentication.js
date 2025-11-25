@@ -4,6 +4,7 @@ import Onboarding from "../../components/common/Onboarding";
 import Hero from "../../components/common/Hero";
 import BlackwellComponent from "../../components/common/BlackwellComponent";
 import ArchitectureCompnenet from "../../components/common/ArchitectureCompnenet";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
 
 // SecurityFeatureCard Component
 const SecurityFeatureCard = ({ icon, title, description }) => (
@@ -56,63 +57,76 @@ const SecurityFeaturesGrid = () => (
 const Authentication = () => {
   return (
     <div>
-      <Hero
-        title="Identity and Access Management"
-        description="Management
-Secure access to your console and deployed models with NovaCore's IAM. Set up fine-grained role-based access control and multi-factor authentication."
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-      />
 
-      <div className="bg-white font-mono text-gray-900">
-        <SecurityFeaturesGrid />
-      </div>
+      <FadeInWhenVisible>
+        <Hero
+          title="Identity and Access Management"
+          description="Management Secure access to your console and deployed models with NovaCore's IAM. Set up fine-grained role-based access control and multi-factor authentication."
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+        />
+      </FadeInWhenVisible>
 
-      <Hero
-        title="Pricing"
-        description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-        buttons={[
-          {
-            label: "Explore",
-            className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-     
-    bg-blue-900
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-white/5 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
+      <FadeInWhenVisible>
+        <div className="bg-white font-sans text-gray-900">
+          <SecurityFeaturesGrid />
+        </div>
+      </FadeInWhenVisible>
 
-      <BlackwellComponent />
+      <FadeInWhenVisible>
+        <Hero
+          title="Pricing"
+          description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+          buttons={[
+            {
+              label: "Explore",
+              className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+              onClick: () => console.log("Explore clicked"),
+            },
+            {
+              label: "Contact Us",
+              className: `
+                bg-blue-900
+                backdrop-blur-md 
+                text-white 
+                px-6 py-3 
+                rounded-md text-lg font-sans 
+                transition 
+                hover:bg-white/5 
+                hover:text-white
+              `,
+              onClick: () => console.log("Contact Us clicked"),
+            },
+          ]}
+        />
+      </FadeInWhenVisible>
 
-      <ArchitectureCompnenet />
+      <FadeInWhenVisible>
+        <BlackwellComponent />
+      </FadeInWhenVisible>
 
-      <Onboarding />
+      <FadeInWhenVisible>
+        <ArchitectureCompnenet />
+      </FadeInWhenVisible>
 
-      <Onboarding
-        description="Be the first to explore our product with the full suite authentication."
-        btnlabel="BOOK A DEMO"
-        bgColor="#a349a4" // Sky-600 color value
-        gridColor="rgba(255, 255, 255, 0.05)" // RGBA for grid lines
-        titleColor="#ffffff" // White for title
-        descriptionColor="#ffffff" // White for description
-        btnColor="#ffffff" // Custom color for the button
-        btnTextColor="#a349a4" // White for button text
-      />
+      <FadeInWhenVisible>
+        <Onboarding />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Onboarding
+          description="Be the first to explore our product with the full suite authentication."
+          btnlabel="BOOK A DEMO"
+          bgColor="#a349a4"
+          gridColor="rgba(255, 255, 255, 0.05)"
+          titleColor="#ffffff"
+          descriptionColor="#ffffff"
+          btnColor="#ffffff"
+          btnTextColor="#a349a4"
+        />
+      </FadeInWhenVisible>
 
       <Footer />
     </div>

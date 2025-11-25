@@ -54,7 +54,7 @@ const pricingData = [
 
 const GPUPricing = () => {
   return (
-    <div className="p-6 max-w-7xl mx-auto font-mono">
+    <div className="p-6 max-w-7xl mx-auto font-sans">
       <h2 className="text-3xl font-bold text-center mb-6 text-indigo-700">GPU Cloud Pricing Strategy</h2>
       <p className="text-center text-gray-600 mb-10">Competitive pricing for the Indian market with transparent, India-first approach</p>
 

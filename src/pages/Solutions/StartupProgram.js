@@ -4,6 +4,7 @@ import Onboarding from "../../components/common/Onboarding";
 import Hero from "../../components/common/Hero";
 import SpecsCards from "../../components/Product/SpecsCards";
 import { Cpu, HardDrive, Network, Settings } from "lucide-react";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
 
 const topSpecs = [
   {
@@ -49,49 +50,60 @@ const bottomSpecs = [
 const StartupProgram = () => {
   return (
     <div>
-      <Hero
-        title="Startup Program"
-        description="Access enterprise-grade GPU infrastructure at startup-friendly pricing Scale resources flexibly as your computing needs grow Get technical support and guidance from our expert team"
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-        buttons={[
-          {
-            label: "Explore",
-            className: "bg-white  text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-    border border-white 
-    bg-white/10 
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-white/5 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
+      {/* Hero Animation */}
+      <FadeInWhenVisible>
+        <Hero
+          title="Startup Program"
+          description="Access enterprise-grade GPU infrastructure at startup-friendly pricing Scale resources flexibly as your computing needs grow Get technical support and guidance from our expert team"
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+          buttons={[
+            {
+              label: "Explore",
+              className:
+                "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+              onClick: () => console.log("Explore clicked"),
+            },
+            {
+              label: "Contact Us",
+              className: `
+                border border-white 
+                bg-white/10 
+                backdrop-blur-md 
+                text-white 
+                px-6 py-3 
+                rounded-md text-lg font-sans 
+                transition 
+                hover:bg-white/5 
+                hover:text-white
+              `,
+              onClick: () => console.log("Contact Us clicked"),
+            },
+          ]}
+        />
+      </FadeInWhenVisible>
 
-      <SpecsCards topSpecs={topSpecs} bottomSpecs={bottomSpecs} />
+      {/* Specs Animation */}
+      <FadeInWhenVisible>
+        <SpecsCards topSpecs={topSpecs} bottomSpecs={bottomSpecs} />
+      </FadeInWhenVisible>
 
+      {/* CTA Animation */}
+      <FadeInWhenVisible>
+        <Onboarding
+          bgColor="#a349a4"
+          gridColor="rgba(255, 255, 255, 0.05)"
+          titleColor="#ffffff"
+          descriptionColor="#ffffff"
+          btnColor="#ffffff"
+          btnTextColor="#a349a4"
+        />
+      </FadeInWhenVisible>
 
-      <Onboarding
-        bgColor="#a349a4" // Sky-600 color value
-        gridColor="rgba(255, 255, 255, 0.05)" // RGBA for grid lines
-        titleColor="#ffffff" // White for title
-        descriptionColor="#ffffff" // White for description
-        btnColor="#ffffff" // Custom color for the button
-        btnTextColor="#a349a4" // White for button text
-      />
+      {/* Footer — static */}
       <Footer />
     </div>
   );
 };
 
-export default StartupProgram
+export default StartupProgram;

@@ -67,7 +67,7 @@ const LegalTerms = () => {
   );
 
   return (
-    <main className="max-w-5xl mx-auto font-mono mt-10 mb-20 px-6">
+    <main className="max-w-5xl mx-auto font-sans mt-10 mb-20 px-6">
       <section className="bg-[#e8e8e8] rounded-xl p-6 space-y-6">
         <h2 className="font-semibold text-2xl flex items-center gap-2 text-[#3a3a3a]">
           <i className="fas fa-exclamation-triangle text-yellow-600"></i>

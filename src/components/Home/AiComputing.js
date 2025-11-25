@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const AIComputing = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-white p-6 mt-20 font-mono">
+    <div className="bg-white p-6 mt-20 font-sans">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-8">
         {/* Image Section */}
         <div className="flex-1">

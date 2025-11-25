@@ -12,13 +12,13 @@ const HeroSection = ({ heading, subheading, button1Text, button2Text, stats }) =
     backgroundSize: '40px 40px',
   }}
 >
-      <div className="z-10 font-mono flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-20 sm:py-32 md:py-40 lg:py-60">
+      <div className="z-10 font-sans flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-20 sm:py-32 md:py-40 lg:py-60">
         {/* Left Section */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900">
             {heading}
           </h1>
-          <p className="text-gray-600 font-mono text-base sm:text-lg md:text-xl max-w-md mx-auto md:mx-0">
+          <p className="text-gray-600 font-sans text-base sm:text-lg md:text-xl max-w-md mx-auto md:mx-0">
             {subheading}
           </p>
 

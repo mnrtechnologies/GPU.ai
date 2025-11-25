@@ -6,6 +6,7 @@ import ArchitectureCompnenet from "../../components/common/ArchitectureCompnenet
 import Hero from "../../components/common/Hero";
 import SpecsCards from "../../components/Product/SpecsCards";
 import { Cpu, HardDrive, Network, Settings } from "lucide-react";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
 
 const topSpecs = [
   {
@@ -51,52 +52,67 @@ const bottomSpecs = [
 const GPUCluster = () => {
   return (
     <div>
-      <Hero
-        title="GPU Cluster"
-        description="Our scalable GPU cluster management solution enables seamless orchestration of distributed AI training across thousands of GPUs with automated workload balancing and fault tolerance. The system features intelligent job scheduling, dynamic resource allocation, and advanced monitoring capabilities for cluster-wide performance optimization. Built-in support for popular distributed training frameworks, coupled with automated model checkpointing and recovery, ensures maximum reliability and efficiency for large-scale AI workloads."
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-        buttons={[
-          {
-            label: "Explore",
-            className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-    border border-white 
-    bg-white/10 
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-white/5 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
 
-      <SpecsCards topSpecs={topSpecs} bottomSpecs={bottomSpecs} />
+      <FadeInWhenVisible>
+        <Hero
+          title="GPU Cluster"
+          description="Our scalable GPU cluster management solution enables seamless orchestration of distributed AI training across thousands of GPUs with automated workload balancing and fault tolerance. The system features intelligent job scheduling, dynamic resource allocation, and advanced monitoring capabilities for cluster-wide performance optimization. Built-in support for popular distributed training frameworks, coupled with automated model checkpointing and recovery, ensures maximum reliability and efficiency for large-scale AI workloads."
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+          buttons={[
+            {
+              label: "Explore",
+              className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+              onClick: () => console.log("Explore clicked"),
+            },
+            {
+              label: "Contact Us",
+              className: `
+                border border-white 
+                bg-white/10 
+                backdrop-blur-md 
+                text-white 
+                px-6 py-3 
+                rounded-md text-lg font-sans 
+                transition 
+                hover:bg-white/5 
+                hover:text-white
+              `,
+              onClick: () => console.log("Contact Us clicked"),
+            },
+          ]}
+        />
+      </FadeInWhenVisible>
 
-      <BlackwellComponent />
+      <FadeInWhenVisible>
+        <SpecsCards topSpecs={topSpecs} bottomSpecs={bottomSpecs} />
+      </FadeInWhenVisible>
 
-      <div className="space-y-12">
-        <ArchitectureCompnenet />
-      </div>
+      <FadeInWhenVisible>
+        <BlackwellComponent />
+      </FadeInWhenVisible>
 
-      <Onboarding
-        bgColor="#a349a4" // Sky-600 color value
-        gridColor="rgba(255, 255, 255, 0.05)" // RGBA for grid lines
-        titleColor="#ffffff" // White for title
-        descriptionColor="#ffffff" // White for description
-        btnColor="#ffffff" // Custom color for the button
-        btnTextColor="#a349a4" // White for button text
-      />
-      <Footer />
+      <FadeInWhenVisible>
+        <div className="space-y-12">
+          <ArchitectureCompnenet />
+        </div>
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Onboarding
+          bgColor="#a349a4"
+          gridColor="rgba(255, 255, 255, 0.05)"
+          titleColor="#ffffff"
+          descriptionColor="#ffffff"
+          btnColor="#ffffff"
+          btnTextColor="#a349a4"
+        />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Footer />
+      </FadeInWhenVisible>
+
     </div>
   );
 };

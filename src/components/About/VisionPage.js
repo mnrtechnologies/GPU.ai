@@ -2,7 +2,7 @@ import React from 'react';
 
 const VisionPage = () => {
   return (
-    <div className="bg-white font-mono p-6">
+    <div className="bg-white font-sans p-6">
       <main
         className="max-w-7xl mx-auto rounded-2xl text-white p-10 md:p-16 space-y-8"
         style={{

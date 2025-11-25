@@ -33,7 +33,7 @@ const teamMembers = [
 
 const TeamSection = () => {
   return (
-    <main className="max-w-7xl mx-auto mb-20 px-4 sm:px-6 py-8 font-mono">
+    <main className="max-w-7xl mx-auto mb-20 px-4 sm:px-6 py-8 font-sans">
       <section className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-10">
         {teamMembers.map((member, index) => (
           <article

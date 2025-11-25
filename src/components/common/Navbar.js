@@ -244,9 +244,9 @@ const Navbar = () => {
       const navBgClass = "bg-white text-gray-900";
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 font-mono bg-transparent">
+    <nav className="fixed top-0 left-0 w-full z-50 font-sans bg-transparent">
       <div
-        className={`px-8 py-6 rounded-b-2xl shadow-md max-w-[90rem] mx-auto ${navBgClass}`}
+        className={`px-8 py-6 rounded-b-2xl shadow-md max-w-[90rem] mx-auto ${navBgClass} outline outline-2 outline-[#a349a4]`}
       >
         {/* Top Row: Logo + (Desktop links) + Hamburger */}
         <div className="flex justify-between items-center mb-4">

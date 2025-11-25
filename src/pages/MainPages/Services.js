@@ -6,35 +6,49 @@ import ArchitectureCompnenet from "../../components/common/ArchitectureCompnenet
 import Onboarding2 from "../../components/common/Onboarding2";
 import ServiceCards from "../../components/Service/ServiceCards";
 
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
+
 const Services = () => {
   return (
     <div>
-      <Hero
-        title="Services and Offerings"
-        description="Comprehensive solutions for AI infrastructure, deployment, and optimization. From dedicated servers to GPU procurement, we've got you covered."
-        gradientRight="rgba(0,0,0,0.05)"
-        gradientBottom="rgba(0,0,0,0.05)"
-        bgColor="bg-gray-100"
-        titleColor="text-gray-800"
-        descriptionColor="text-gray-500"
-      />
+      <FadeInWhenVisible>
+        <Hero
+          title="Services and Offerings"
+          description="Comprehensive solutions for AI infrastructure, deployment, and optimization. From dedicated servers to GPU procurement, we've got you covered."
+          gradientRight="rgba(0,0,0,0.05)"
+          gradientBottom="rgba(0,0,0,0.05)"
+          bgColor="bg-gray-100"
+          titleColor="text-gray-800"
+          descriptionColor="text-gray-500"
+        />
+      </FadeInWhenVisible>
 
-      <ServiceCards/>
+      <FadeInWhenVisible>
+        <ServiceCards />
+      </FadeInWhenVisible>
 
-      <BlackwellComponent />
+      <FadeInWhenVisible>
+        <BlackwellComponent />
+      </FadeInWhenVisible>
 
-      <div className="space-y-12">
-        <ArchitectureCompnenet />
-      </div>
+      <FadeInWhenVisible>
+        <div className="space-y-12">
+          <ArchitectureCompnenet />
+        </div>
+      </FadeInWhenVisible>
 
-      <Onboarding2
-        title="Ready to Get Started?"
-        description="Contact us today to learn more about our services and how we can help you achieve your goals."
-        buttonLabel="Contact Us"
-        onButtonClick={() => alert("Contact button clicked!")}
-      />
+      <FadeInWhenVisible>
+        <Onboarding2
+          title="Ready to Get Started?"
+          description="Contact us today to learn more about our services and how we can help you achieve your goals."
+          buttonLabel="Contact Us"
+          onButtonClick={() => alert("Contact button clicked!")}
+        />
+      </FadeInWhenVisible>
 
-      <Footer />
+      <FadeInWhenVisible>
+        <Footer />
+      </FadeInWhenVisible>
     </div>
   );
 };

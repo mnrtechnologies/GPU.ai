@@ -2,7 +2,7 @@ import React from "react";
 
 const LegalCenter = () => {
   return (
-    <main className="max-w-6xl mx-auto px-4 py-12 bg-white text-gray-700 font-mono">
+    <main className="max-w-6xl mx-auto px-4 py-12 bg-white text-gray-700 font-sans">
       <h1 className="text-center text-2xl font-semibold text-gray-800 mb-2">
         Legal Center
       </h1>

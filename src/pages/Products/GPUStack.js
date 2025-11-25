@@ -6,6 +6,8 @@ import ArchitectureCompnenet from "../../components/common/ArchitectureCompnenet
 import Hero from "../../components/common/Hero";
 import SpecsCards from "../../components/Product/SpecsCards";
 import { Cpu, HardDrive, Network, Settings } from "lucide-react";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
+
 
 const topSpecs = [
   {
@@ -51,51 +53,68 @@ const bottomSpecs = [
 const GPUStack = () => {
   return (
     <div>
-      <Hero
-        title="GPU Stack"
-        description="Our full-stack GPU computing platform provides a complete ecosystem for enterprise AI deployment, from bare metal infrastructure to high-level development tools and applications. The integrated stack includes optimized drivers, containerization support, and advanced orchestration capabilities for seamless scalability. Features comprehensive monitoring, automated updates, and enterprise-grade security measures, all managed through a unified control plane for simplified operations."
-        gradientRight="rgba(255,255,255,0.05)"
-        gradientBottom="rgba(255,255,255,0.05)"
-        buttons={[
-          {
-            label: "Explore",
-            className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-    border border-white 
-    bg-white/10 
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-white/5 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
+      {/* Hero */}
+      <FadeInWhenVisible>
+        <Hero
+          title="GPU Stack"
+          description="Our full-stack GPU computing platform provides a complete ecosystem for enterprise AI deployment, from bare metal infrastructure to high-level development tools and applications. The integrated stack includes optimized drivers, containerization support, and advanced orchestration capabilities for seamless scalability. Features comprehensive monitoring, automated updates, and enterprise-grade security measures, all managed through a unified control plane for simplified operations."
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
+          buttons={[
+            {
+              label: "Explore",
+              className:
+                "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+              onClick: () => console.log("Explore clicked"),
+            },
+            {
+              label: "Contact Us",
+              className: `
+                border border-white 
+                bg-white/10 
+                backdrop-blur-md 
+                text-white 
+                px-6 py-3 
+                rounded-md text-lg font-sans 
+                transition 
+                hover:bg-white/5 
+                hover:text-white
+              `,
+              onClick: () => console.log("Contact Us clicked"),
+            },
+          ]}
+        />
+      </FadeInWhenVisible>
 
-      <SpecsCards topSpecs={topSpecs} bottomSpecs={bottomSpecs} />
+      {/* Specs Cards */}
+      <FadeInWhenVisible>
+        <SpecsCards topSpecs={topSpecs} bottomSpecs={bottomSpecs} />
+      </FadeInWhenVisible>
 
-      <BlackwellComponent />
+      {/* Blackwell */}
+      <FadeInWhenVisible>
+        <BlackwellComponent />
+      </FadeInWhenVisible>
 
-      <div className="space-y-12">
-        <ArchitectureCompnenet />
-      </div>
+      {/* Architecture */}
+      <FadeInWhenVisible>
+        <div className="space-y-12">
+          <ArchitectureCompnenet />
+        </div>
+      </FadeInWhenVisible>
 
-      <Onboarding
-        bgColor="#a349a4" // Sky-600 color value
-        gridColor="rgba(255, 255, 255, 0.05)" // RGBA for grid lines
-        titleColor="#ffffff" // White for title
-        descriptionColor="#ffffff" // White for description
-        btnColor="#ffffff" // Custom color for the button
-        btnTextColor="#a349a4" // White for button text
-      />
+      {/* Onboarding */}
+      <FadeInWhenVisible>
+        <Onboarding
+          bgColor="#a349a4"
+          gridColor="rgba(255, 255, 255, 0.05)"
+          titleColor="#ffffff"
+          descriptionColor="#ffffff"
+          btnColor="#ffffff"
+          btnTextColor="#a349a4"
+        />
+      </FadeInWhenVisible>
+
       <Footer />
     </div>
   );

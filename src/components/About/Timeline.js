@@ -40,7 +40,7 @@ const timelineData = [
 
 const Timeline = () => {
   return (
-    <div className="relative font-mono mx-auto w-full max-w-3xl py-20">
+    <div className="relative font-sans mx-auto w-full max-w-3xl py-20">
       {/* Intro Text */}
       <div className="mb-24 text-center max-w-2xl mx-auto">
         <h4 className="text-5xl font-bold mb-4">Our Journey</h4>
@@ -75,8 +75,8 @@ const Timeline = () => {
             <div className="absolute -top-10 left-[50%] -translate-x-1/2 bg-[#a349a4] text-white px-4 py-1 rounded-full text-lg  font-semibold shadow-md">
               {item.year}
             </div>
-            <h3 className="text-xl font-bold font-mono mb-2">{item.title}</h3>
-            <p className="text-md font-mono text-gray-700">{item.content}</p>
+            <h3 className="text-xl font-bold font-sans mb-2">{item.title}</h3>
+            <p className="text-md font-sans text-gray-700">{item.content}</p>
           </div>
         </div>
       ))}

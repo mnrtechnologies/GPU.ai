@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blackwell = ({ title, description, onButtonClick, boxBgColor = '#ecf9d6' }) => {
   return (
-    <div className="bg-white font-mono p-6">
+    <div className="bg-white font-sans p-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
         <div className="md:w-1/3 text-left">
           <h2 className="font-extrabold text-2xl leading-tight text-gray-900">{title}</h2>

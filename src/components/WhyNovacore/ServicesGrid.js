@@ -59,7 +59,7 @@ const services = [
 
 const ServicesGrid = () => {
   return (
-    <div className="bg-white font-mono p-6">
+    <div className="bg-white font-sans p-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">
         {services.map((service, index) => (
           <div key={index} className="bg-gray-100 rounded-xl p-6">

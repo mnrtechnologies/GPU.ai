@@ -17,10 +17,10 @@ const PerformanceHighlight = () => (
   <div className="bg-[#f7f9fc] mt-16 py-12">
     <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col lg:flex-row items-center gap-10 lg:gap-20">
       <div className="max-w-lg lg:max-w-md">
-        <h2 className="font-mono text-gray-700 font-bold text-xl sm:text-4xl mb-7">
+        <h2 className="font-sans text-gray-700 font-bold text-xl sm:text-4xl mb-7">
           Industry-Leading Performance
         </h2>
-        <p className="font-mono text-gray-700 text-sm sm:text-lg mb-6 leading-relaxed">
+        <p className="font-sans text-gray-700 text-sm sm:text-lg mb-6 leading-relaxed">
           Our cloud platform delivers exceptional performance metrics that set us apart:
         </p>
         <div className="space-y-4">
@@ -28,8 +28,8 @@ const PerformanceHighlight = () => (
             <div key={i} className="flex items-center gap-3 bg-white rounded-md p-4 shadow-sm">
               <i className={`${m.icon} text-[#a349a4] text-2xl`} />
               <div>
-                <h4 className="font-mono text-gray-700 font-semibold text-lg">{m.title}</h4>
-                <p className="font-mono text-md text-gray-600">{m.subtitle}</p>
+                <h4 className="font-sans text-gray-700 font-semibold text-lg">{m.title}</h4>
+                <p className="font-sans text-md text-gray-600">{m.subtitle}</p>
               </div>
             </div>
           ))}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeatureCard = ({ title, description, imageUrl }) => {
   return (
-    <div className="relative font-mono rounded-xl h-[400px] w-full sm:w-[405px] overflow-hidden group">
+    <div className="relative font-sans rounded-xl h-[400px] w-full sm:w-[405px] overflow-hidden group">
       {/* Image */}
       <div className="relative w-full h-full">
         <img

@@ -1,12 +1,18 @@
 import React from "react";
 import Footer from "../../components/common/Footer";
 import ContactUs from "../../components/Contact/ContactUs";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
 
 const Contact = () => {
   return (
     <div>
-      <ContactUs />
-      <Footer />
+      <FadeInWhenVisible>
+        <ContactUs />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Footer />
+      </FadeInWhenVisible>
     </div>
   );
 };

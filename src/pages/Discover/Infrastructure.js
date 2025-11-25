@@ -20,6 +20,8 @@ import {
 } from "lucide-react";
 import MultiGPUComputing from "../../components/Discover/MultiGPUComputing";
 import DeploymentOptions from "./DeploymentOptions";
+import FadeInWhenVisible from "../../components/common/FadeInWhenVisible";
+
 
 const specsData1 = [
   {
@@ -71,68 +73,86 @@ const performanceData = [
   { title: "LLM Training", value: "1.9X", icon: BrainCircuit },
 ];
 
-
 const Infrastructure = () => {
   return (
     <div>
-      <Hero
-        title="Diverse GPU Infrastructure"
-        description="Access our comprehensive fleet of NVIDIA GPUs, from the latest B200s, B200 enterprise accelerators to consumer-grade RTX cards. Powered by NVLink and NVSwitch technology for seamless multi-GPU workloads, enabling distributed training and inference at scale."
-        gradientRight="rgba(0,0,0,0.05)"
-        gradientBottom="rgba(0,0,0,0.05)"
-        bgColor="bg-gray-100"
-        titleColor="text-gray-800"
-        descriptionColor="text-gray-500"
-        buttons={[
-          {
-            label: "Laern More",
-            className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
-            onClick: () => console.log("Explore clicked"),
-          },
-          {
-            label: "Contact Us",
-            className: `
-    border border-white 
-    bg-sky-800 
-    backdrop-blur-md 
-    text-white 
-    px-6 py-3 
-    rounded-md text-lg font-mono 
-    transition 
-    hover:bg-sky-700 
-    hover:text-white
-  `,
-            onClick: () => console.log("Contact Us clicked"),
-          },
-        ]}
-      />
 
-      <GpuArchitecture />
+      {/* HERO With Animation */}
+      <FadeInWhenVisible>
+        <Hero
+          title="Diverse GPU Infrastructure"
+          description="Access our comprehensive fleet of NVIDIA GPUs, from the latest B200s, B200 enterprise accelerators to consumer-grade RTX cards. Powered by NVLink and NVSwitch technology for seamless multi-GPU workloads, enabling distributed training and inference at scale."
+          gradientRight="rgba(0,0,0,0.05)"
+          gradientBottom="rgba(0,0,0,0.05)"
+          bgColor="bg-gray-100"
+          titleColor="text-gray-800"
+          descriptionColor="text-gray-500"
+          buttons={[
+            {
+              label: "Laern More",
+              className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+              onClick: () => console.log("Explore clicked"),
+            },
+            {
+              label: "Contact Us",
+              className: `
+                border border-white 
+                bg-sky-800 
+                backdrop-blur-md 
+                text-white 
+                px-6 py-3 
+                rounded-md text-lg font-sans 
+                transition 
+                hover:bg-sky-700 
+                hover:text-white
+              `,
+              onClick: () => console.log("Contact Us clicked"),
+            },
+          ]}
+        />
+      </FadeInWhenVisible>
 
-      <PerformanceFeatures performanceData={performanceData} />
+      {/* SECTIONS With Animation */}
+      <FadeInWhenVisible>
+        <GpuArchitecture />
+      </FadeInWhenVisible>
 
-      <TechnicalSpecs
-        title={`Technical Specs\nand\nBenchmarks`}
-        description={`We use the latest B200s, B200s from NVIDIA giving the best performance per dollar for all your deep learning needs. Whether you're a researcher, a developer, or a business, we have the right hardware for you. Our B200s are the most powerful and efficient GPUs on the market.`}
-        specs={specsData1}
-      />
+      <FadeInWhenVisible>
+        <PerformanceFeatures performanceData={performanceData} />
+      </FadeInWhenVisible>
 
-      <MultiGPUComputing/>
+      <FadeInWhenVisible>
+        <TechnicalSpecs
+          title={`Technical Specs\nand\nBenchmarks`}
+          description={`We use the latest B200s, B200s from NVIDIA giving the best performance per dollar for all your deep learning needs. Whether you're a researcher, a developer, or a business, we have the right hardware for you. Our B200s are the most powerful and efficient GPUs on the market.`}
+          specs={specsData1}
+        />
+      </FadeInWhenVisible>
 
-      <DeploymentOptions/>
+      <FadeInWhenVisible>
+        <MultiGPUComputing />
+      </FadeInWhenVisible>
 
-      <Onboarding
-        bgColor="#a349a4" // Sky-600 color value
-        gridColor="rgba(255, 255, 255, 0.05)" // RGBA for grid lines
-        titleColor="#ffffff" // White for title
-        descriptionColor="#ffffff" // White for description
-        btnColor="#ffffff" // Custom color for the button
-        btnTextColor="#a349a4" // White for button text
-      />
+      <FadeInWhenVisible>
+        <DeploymentOptions />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Onboarding
+          bgColor="#a349a4"
+          gridColor="rgba(255, 255, 255, 0.05)"
+          titleColor="#ffffff"
+          descriptionColor="#ffffff"
+          btnColor="#ffffff"
+          btnTextColor="#a349a4"
+        />
+      </FadeInWhenVisible>
 
       <Footer />
+
     </div>
   );
 };
 
 export default Infrastructure;
+

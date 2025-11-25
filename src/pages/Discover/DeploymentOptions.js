@@ -47,7 +47,7 @@ const deploymentOptions = [
 
 export default function DeploymentOptions() {
   return (
-    <main className="max-w-7xl mx-auto px-4 py-10 font-mono">
+    <main className="max-w-7xl mx-auto px-4 py-10 font-sans">
       <header className="text-center mb-8">
         <h1 className="text-[32px] font-semibold leading-tight">
           Flexible Deployment

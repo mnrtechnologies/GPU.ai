@@ -2,7 +2,7 @@ import React from 'react';
 
 const NovacoreCompliance = () => {
   return (
-    <main className="max-w-6xl mx-auto px-4 mt-10 space-y-10 font-mono">
+    <main className="max-w-6xl mx-auto px-4 mt-10 space-y-10 font-sans">
       {/* AI Technology Compliance */}
       <section className="bg-gray-200 rounded-lg p-6">
         <h2 className="text-gray-900 font-semibold text-2xl mb-6 select-none flex items-center gap-2">

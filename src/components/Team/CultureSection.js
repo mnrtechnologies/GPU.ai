@@ -2,7 +2,7 @@ import React from "react";
 
 const CultureSection = () => {
   return (
-    <div className="bg-[#E9EBEB] min-h-screen font-mono flex items-center justify-center p-6">
+    <div className="bg-[#E9EBEB] min-h-screen font-sans flex items-center justify-center p-6">
       <main className="max-w-7xl w-full flex flex-col lg:flex-row gap-10 lg:gap-20">
         {/* Text Section */}
         <section className="flex flex-col mb-9 mt-9 max-w-xl space-y-6">

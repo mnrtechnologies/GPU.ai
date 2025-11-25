@@ -15,12 +15,12 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="bg-white text-[#0f172a] min-h-screen flex items-center justify-center px-4 sm:px-8 font-mono">
+    <div className="bg-white text-[#0f172a] min-h-screen flex items-center justify-center px-4 sm:px-8 font-sans">
       <div className="max-w-7xl w-full mt-36 grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Text Section */}
         <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
-            Gigawatt  <br className="hidden sm:block" /> Scale  <br className="hidden sm:block" /> Datacenters
+            Large  <br className="hidden sm:block" /> Scale AI <br className="hidden sm:block" /> Datacenters
           </h1>
           <p className="text-[#475569] text-base sm:text-lg mb-8 max-w-md">
 Custom buildouts available for US$100 million+ datacenters for AI

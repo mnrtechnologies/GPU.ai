@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesGrid = ({ services }) => {
   return (
-    <div className="bg-white p-6 font-mono">
+    <div className="bg-white p-6 font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div

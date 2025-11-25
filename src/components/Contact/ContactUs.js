@@ -30,7 +30,7 @@ const ContactUs = () => {
   };
 
   return (
-    <main className="bg-white text-[#1a202c] max-w-7xl mx-auto px-4 mt-24 sm:px-6 lg:px-8 py-12 font-mono">
+    <main className="bg-white text-[#1a202c] max-w-7xl mx-auto px-4 mt-24 sm:px-6 lg:px-8 py-12 font-sans">
       <header className="text-center mb-12">
         <h1 className="text-3xl font-semibold tracking-wide">Contact us</h1>
         <p className="mt-2 text-sm text-gray-600">
@@ -174,10 +174,10 @@ const ContactUs = () => {
               If you wish to write us an email instead please use
             </p>
             <a
-              href="mailto:contact@novacorein.com"
+              href="mailto:contact@gpuai.com"
               className="text-[#a349a4] font-semibold hover:underline"
             >
-              contact@novacorein.com
+              contact@gpuai.com
             </a>
           </div>
         </section>

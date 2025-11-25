@@ -25,13 +25,13 @@ const benefits = [
 
 const ResearchBenefits = () => {
   return (
-    <div className="bg-white mt-9 font-mono">
+    <div className="bg-white mt-9 font-sans">
       <div className="max-w-7xl mx-auto p-10 bg-gray-100 rounded-3xl">
         <div className="text-center mb-10">
           <h1 className="text-4xl font-extrabold text-gray-900 leading-tight tracking-wide">
             Research Program<br />Benefits
           </h1>
-          <p className="mt-2 text-gray-600 text-sm font-mono">
+          <p className="mt-2 text-gray-600 text-sm font-sans">
             Comprehensive support for your research journey
           </p>
         </div>
@@ -42,8 +42,8 @@ const ResearchBenefits = () => {
               <div className="text-[#a349a4] mb-4">
                 <i className={`${benefit.icon} fa-lg`}></i>
               </div>
-              <h3 className="font-mono font-bold text-lg mb-2">{benefit.title}</h3>
-              <p className="font-mono text-gray-600 text-sm leading-relaxed">
+              <h3 className="font-sans font-bold text-lg mb-2">{benefit.title}</h3>
+              <p className="font-sans text-gray-600 text-sm leading-relaxed">
                 {benefit.description}
               </p>
             </div>
