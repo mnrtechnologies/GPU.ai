@@ -19,7 +19,7 @@ const HeroSection = () => {
       
       <div className="max-w-7xl w-full mt-36 grid grid-cols-1 md:grid-cols-12 gap-12">
         
-        {/* Text Section */}
+        {/* Text Section (No Change) */}
         <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left z-10 md:col-span-4 py-12"> 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
             Large <br className="hidden sm:block" /> Scale AI <br className="hidden sm:block" /> Datacenters
@@ -34,26 +34,27 @@ const HeroSection = () => {
             >
               Get Started <span className="inline-block ml-2">→</span>
             </button>
-            <button
-              onClick={() => navigate('/contact')}
-              className="border border-[#cbd5e1] text-[#0f172a] px-6 sm:px-8 py-3 rounded-md text-base sm:text-lg font-medium hover:bg-[#f1f5f9] transition"
-            >
-              Contact
-            </button>
           </div>
         </div>
 
         {/* Image Section */}
-        <div className="md:col-span-8 w-full h-full min-h-[500px] md:min-h-0 relative">
+        <div 
+          // FIX: Restoring original desktop behavior with responsive prefixes.
+          // Mobile: min-h-[250px] max-h-[300px] (Shorter, landscape-friendly)
+          // Desktop (md: and up): h-full and min-h-[500px] (Original tall height)
+          className="md:col-span-8 w-full h-full min-h-[250px] max-h-[300px] md:min-h-0 md:h-full md:min-h-[500px] relative"
+        >
           <div 
-            className="md:absolute md:inset-0 w-full h-full bg-cover bg-center rounded-xl overflow-hidden shadow-2xl relative"
+            // FIX: Using responsive background sizing to separate mobile vs. desktop fit.
+            // Mobile (default): bg-contain (fits the whole image).
+            // Desktop (md:): md:bg-cover (fills the space, original behavior).
+            className="md:absolute md:inset-0 w-full h-full bg-contain bg-no-repeat bg-center rounded-xl overflow-hidden shadow-2xl relative md:bg-cover"
             style={{ 
               backgroundImage: `url(${HomePageLogo})`,
-              backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
           >
-            {/* Left side fade INCLUDING corners */}
+            {/* Left side fade INCLUDING corners (No Change) */}
             <div 
               className="absolute inset-0 pointer-events-none rounded-xl"
               style={{

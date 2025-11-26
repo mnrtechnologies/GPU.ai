@@ -174,10 +174,10 @@ const ContactUs = () => {
               If you wish to write us an email instead please use
             </p>
             <a
-              href="mailto:contact@gpuai.com"
+              href="mailto:hello@gpu.ai "
               className="text-[#A800FF] font-semibold hover:underline"
             >
-              contact@gpuai.com
+              hello@gpu.ai 
             </a>
           </div>
         </section>

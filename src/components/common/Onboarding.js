@@ -35,19 +35,21 @@ const CustomerLogos = ({
     }
 
     .animate-scroll {
-      animation: scroll-left 40s linear infinite;
+      /* Desktop speed: 25s */
+      animation: scroll-left 28s linear infinite; 
       animation-play-state: running;
     }
 
-    /* Pause on hover (desktop only; hover doesn't exist on mobile) */
+    /* Pause on hover */
     .animate-scroll:hover {
       animation-play-state: paused;
     }
 
-    /* MOBILE SPEED BOOST */
+    /* MOBILE SPEED ADJUSTMENT */
     @media (max-width: 640px) {
       .animate-scroll {
-        animation-duration: 6s !important; /* Faster on mobile */
+        /* Updated Mobile Speed to 14s */
+        animation-duration: 16s !important; 
       }
     }
 
@@ -88,23 +90,26 @@ const CustomerLogos = ({
           >
             Global Leaders in AI and Research
           </h1>
-
+          
           <div className="overflow-hidden relative w-full py-5">
-            <div className="flex animate-scroll w-[200%] whitespace-nowrap">
+            {/* The w-max and gap-x-8 from the previous fix remain for tight spacing */}
+            <div className="flex animate-scroll w-max gap-x-8"> 
               {duplicatedLogos.map((logo, index) => (
                 <div
                   key={index}
-                  className="flex-shrink-0 w-[200px] h-20 flex items-center justify-center mx-5"
+                  /* w-32 for mobile, sm:w-[200px] for desktop */
+                  className="flex-shrink-0 w-32 sm:w-[200px] h-20 flex items-center justify-center" 
                 >
                   <img
                     src={logo.src}
                     alt={logo.name}
-                    className="h-12 max-w-full object-contain "
+                    className="h-12 max-w-full object-contain " 
                   />
                 </div>
               ))}
             </div>
           </div>
+          
         </div>
       </div>
     </>
