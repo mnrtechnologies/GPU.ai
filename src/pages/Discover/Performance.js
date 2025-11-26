@@ -72,8 +72,8 @@ const Performance = () => {
         <Hero
           title="Unmatched Performance"
           description="Experience industry-leading GPU performance with our optimized infrastructure. From high-throughput training to low-latency inference, we deliver exceptional results."
-          gradientRight="rgba(0,0,0,0.12)"
-          gradientBottom="rgba(0,0,0,0.12)"
+          gradientRight="rgba(0,0,0,0.05)"
+          gradientBottom="rgba(0,0,0,0.05)"
           bgColor="bg-gray-100"
           titleColor="text-gray-800"
           descriptionColor="text-gray-500"
@@ -96,8 +96,8 @@ const Performance = () => {
         <Hero
           title="Pricing"
           description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads."
-          gradientRight="rgba(255,255,255,0.12)"
-          gradientBottom="rgba(255,255,255,0.12)"
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
           buttons={[
             {
               label: "Explore",

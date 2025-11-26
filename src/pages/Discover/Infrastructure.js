@@ -82,8 +82,8 @@ const Infrastructure = () => {
         <Hero
           title="Diverse GPU Infrastructure"
           description="Access our comprehensive fleet of NVIDIA GPUs, from the latest B200s, B200 enterprise accelerators to consumer-grade RTX cards. Powered by NVLink and NVSwitch technology for seamless multi-GPU workloads, enabling distributed training and inference at scale."
-          gradientRight="rgba(0,0,0,0.12)"
-          gradientBottom="rgba(0,0,0,0.12)"
+          gradientRight="rgba(0,0,0,0.05)"
+          gradientBottom="rgba(0,0,0,0.05)"
           bgColor="bg-gray-100"
           titleColor="text-gray-800"
           descriptionColor="text-gray-500"
@@ -140,7 +140,7 @@ const Infrastructure = () => {
       <FadeInWhenVisible>
         <Onboarding
           bgColor="#A800FF"
-          gridColor="rgba(255, 255, 255, 0.12)"
+          gridColor="rgba(255, 255, 255, 0.05)"
           titleColor="#ffffff"
           descriptionColor="#ffffff"
           btnColor="#ffffff"

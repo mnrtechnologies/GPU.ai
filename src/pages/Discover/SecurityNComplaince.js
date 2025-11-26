@@ -74,8 +74,8 @@ const SecurityNComplaince = () => {
         <Hero
           title="Enterprise-Grade Security"
           description="State-of-the-art security measures and compliance standards to protect your data and workloads. Built-in encryption, access controls, and continuous monitoring for peace of mind."
-          gradientRight="rgba(0,0,0,0.12)"
-          gradientBottom="rgba(0,0,0,0.12)"
+          gradientRight="rgba(0,0,0,0.05)"
+          gradientBottom="rgba(0,0,0,0.05)"
           bgColor="bg-gray-100"
           titleColor="text-gray-800"
           descriptionColor="text-gray-500"
@@ -88,8 +88,8 @@ const SecurityNComplaince = () => {
         <Hero
           title="Pricing"
           description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
-          gradientRight="rgba(255,255,255,0.12)"
-          gradientBottom="rgba(255,255,255,0.12)"
+          gradientRight="rgba(255,255,255,0.05)"
+          gradientBottom="rgba(255,255,255,0.05)"
         />
       </FadeInWhenVisible>
 
