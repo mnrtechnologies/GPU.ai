@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import HomePageLogo from '../../assets/datacenter.png';
+import HomePageLogo from '../../assets/datacenter2.jpg';
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -44,34 +44,32 @@ const HeroSection = () => {
         </div>
 
         {/* Image Section */}
-{/* Image Section */}
-<div className="md:col-span-8 w-full h-full min-h-[500px] md:min-h-0 relative">
-  <div 
-    className="md:absolute md:inset-0 w-full h-full bg-cover bg-center rounded-xl overflow-hidden shadow-2xl relative"
-    style={{ 
-      backgroundImage: `url(${HomePageLogo})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    }}
-  >
-    {/* Left side fade */}
-    <div 
-      className="absolute inset-0 pointer-events-none"
-      style={{
-        background: `
-          linear-gradient(
-            to right,
-            rgba(255, 255, 255, 0.9) 0%,
-            rgba(255, 255, 255, 0.6) 10%,
-            rgba(255, 255, 255, 0.2) 25%,
-            rgba(255, 255, 255, 0) 45%
-          )
-        `
-      }}
-    ></div>
-  </div>
-</div>
-
+        <div className="md:col-span-8 w-full h-full min-h-[500px] md:min-h-0 relative">
+          <div 
+            className="md:absolute md:inset-0 w-full h-full bg-cover bg-center rounded-xl overflow-hidden shadow-2xl relative"
+            style={{ 
+              backgroundImage: `url(${HomePageLogo})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+            {/* Left side fade INCLUDING corners */}
+            <div 
+              className="absolute inset-0 pointer-events-none rounded-xl"
+              style={{
+                background: `
+                  linear-gradient(
+                    to right,
+                    rgba(255, 255, 255, 0.9) 0%,
+                    rgba(255, 255, 255, 0.6) 10%,
+                    rgba(255, 255, 255, 0.2) 25%,
+                    rgba(255, 255, 255, 0) 45%
+                  )
+                `
+              }}
+            ></div>
+          </div>
+        </div>
 
       </div>
     </div>
