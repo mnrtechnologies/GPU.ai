@@ -86,7 +86,7 @@ const ContactUs = () => {
               onChange={handleChange}
               type="tel"
               placeholder="Phone Number"
-              className="w-full border border-[#d1e3f8] rounded-md px-4 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#a349a4]"
+              className="w-full border border-[#d1e3f8] rounded-md px-4 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#A800FF]"
             />
             <textarea
               name="details"
@@ -94,11 +94,11 @@ const ContactUs = () => {
               onChange={handleChange}
               rows="6"
               placeholder="Details"
-              className="w-full border border-[#d1e3f8] rounded-md px-4 py-2 text-sm placeholder:text-gray-400 resize-none focus:outline-none focus:ring-2 focus:ring-[#a349a4]"
+              className="w-full border border-[#d1e3f8] rounded-md px-4 py-2 text-sm placeholder:text-gray-400 resize-none focus:outline-none focus:ring-2 focus:ring-[#A800FF]"
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-[#a349a4] text-white font-semibold text-md py-3 rounded-md hover:bg-[#005a9e] transition-colors"
+              className="w-full bg-[#A800FF] text-white font-semibold text-md py-3 rounded-md hover:bg-[#005a9e] transition-colors"
             >
               Send inquiry
             </button>
@@ -112,7 +112,7 @@ const ContactUs = () => {
         <section className="flex-1 w-full max-w-lg mx-auto lg:mx-0 space-y-8 text-base text-gray-600">
           {/* Knowledgebase */}
           <div>
-            <div className="flex items-center gap-3 mb-1 text-[#a349a4]">
+            <div className="flex items-center gap-3 mb-1 text-[#A800FF]">
               <i className="fas fa-question-circle text-lg"></i>
               <h3 className="font-semibold text-gray-900">Knowledgebase</h3>
             </div>
@@ -121,7 +121,7 @@ const ContactUs = () => {
             </p>
             <a
               href="#"
-              className="text-[#a349a4] font-semibold hover:underline inline-flex items-center gap-1"
+              className="text-[#A800FF] font-semibold hover:underline inline-flex items-center gap-1"
             >
               Contact support <i className="fas fa-arrow-right"></i>
             </a>
@@ -130,7 +130,7 @@ const ContactUs = () => {
 
           {/* FAQ */}
           <div>
-            <div className="flex items-center gap-3 mb-1 text-[#a349a4]">
+            <div className="flex items-center gap-3 mb-1 text-[#A800FF]">
               <i className="far fa-comment-alt text-lg"></i>
               <h3 className="font-semibold text-gray-900">FAQ</h3>
             </div>
@@ -139,7 +139,7 @@ const ContactUs = () => {
             </p>
             <a
               href="#"
-              className="text-[#a349a4] font-semibold hover:underline inline-flex items-center gap-1"
+              className="text-[#A800FF] font-semibold hover:underline inline-flex items-center gap-1"
             >
               Visit FAQ <i className="fas fa-arrow-right"></i>
             </a>
@@ -148,14 +148,14 @@ const ContactUs = () => {
 
           {/* Developer APIs */}
           <div>
-            <div className="flex items-center gap-3 mb-1 text-[#a349a4]">
+            <div className="flex items-center gap-3 mb-1 text-[#A800FF]">
               <i className="fas fa-code text-lg"></i>
               <h3 className="font-semibold text-gray-900">Developer APIs</h3>
             </div>
             <p className="mb-1">Check out our development quickstart guide.</p>
             <a
               href="#"
-              className="text-[#a349a4] font-semibold hover:underline inline-flex items-center gap-1"
+              className="text-[#A800FF] font-semibold hover:underline inline-flex items-center gap-1"
             >
               Contact sales <i className="fas fa-arrow-right"></i>
             </a>
@@ -164,7 +164,7 @@ const ContactUs = () => {
 
           {/* Contact us by email */}
           <div>
-            <div className="flex items-center gap-3 mb-1 text-[#a349a4]">
+            <div className="flex items-center gap-3 mb-1 text-[#A800FF]">
               <i className="far fa-envelope text-lg"></i>
               <h3 className="font-semibold text-gray-900">
                 Contact us by email
@@ -175,7 +175,7 @@ const ContactUs = () => {
             </p>
             <a
               href="mailto:contact@gpuai.com"
-              className="text-[#a349a4] font-semibold hover:underline"
+              className="text-[#A800FF] font-semibold hover:underline"
             >
               contact@gpuai.com
             </a>

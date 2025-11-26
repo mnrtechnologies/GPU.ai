@@ -120,12 +120,12 @@ const NextGenGPU = () => {
         <Hero
           title="B200s at your Fingertips"
           description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
-          gradientRight="rgba(255,255,255,0.05)"
-          gradientBottom="rgba(255,255,255,0.05)"
+          gradientRight="rgba(255,255,255,0.12)"
+          gradientBottom="rgba(255,255,255,0.12)"
           buttons={[
             {
               label: "Explore",
-              className: "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+              className: "bg-white text-[#A800FF] hover:bg-[rgb(162,0,138)] hover:text-white",
               onClick: () => console.log("Explore clicked"),
             },
             {
@@ -172,12 +172,12 @@ const NextGenGPU = () => {
 
       <FadeInWhenVisible>
         <Onboarding
-          bgColor="#a349a4"
-          gridColor="rgba(255, 255, 255, 0.05)"
+          bgColor="#A800FF"
+          gridColor="rgba(255, 255, 255, 0.12)"
           titleColor="#ffffff"
           descriptionColor="#ffffff"
           btnColor="#ffffff"
-          btnTextColor="#a349a4"
+          btnTextColor="#A800FF"
         />
       </FadeInWhenVisible>
 

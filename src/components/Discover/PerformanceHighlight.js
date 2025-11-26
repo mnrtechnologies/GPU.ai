@@ -26,7 +26,7 @@ const PerformanceHighlight = () => (
         <div className="space-y-4">
           {metrics.map((m, i) => (
             <div key={i} className="flex items-center gap-3 bg-white rounded-md p-4 shadow-sm">
-              <i className={`${m.icon} text-[#a349a4] text-2xl`} />
+              <i className={`${m.icon} text-[#A800FF] text-2xl`} />
               <div>
                 <h4 className="font-sans text-gray-700 font-semibold text-lg">{m.title}</h4>
                 <p className="font-sans text-md text-gray-600">{m.subtitle}</p>

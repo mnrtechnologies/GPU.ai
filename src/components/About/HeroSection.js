@@ -23,7 +23,7 @@ const HeroSection = ({ heading, subheading, button1Text, button2Text, stats }) =
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start">
-            <button className="bg-[#a349a4] hover:bg-[rgb(162,0,138)] text-white font-semibold py-3 px-6 rounded-lg flex items-center justify-center gap-2 w-full sm:w-auto">
+            <button className="bg-[#A800FF] hover:bg-[rgb(162,0,138)] text-white font-semibold py-3 px-6 rounded-lg flex items-center justify-center gap-2 w-full sm:w-auto">
               {button1Text}
             </button>
             <button className="border border-gray-400 hover:border-gray-600 text-gray-700 font-semibold py-3 px-6 rounded-lg w-full sm:w-auto">

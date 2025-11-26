@@ -1,10 +1,10 @@
 import React from "react";
-import MIT from "../../assets/companyLogos/mit.jpg";
+import MIT from "../../assets/companyLogos/mit.png";
 import DeepInfra from "../../assets/companyLogos/deepinfra.png";
-import Neets from "../../assets/companyLogos/neet.jpg";
-import DeepMotion from "../../assets/companyLogos/deepmotion.jpg";
-import Exabits from "../../assets/companyLogos/exanits.png";
-import Cornell from "../../assets/companyLogos/Cornell-University-Logo.jpg";
+import Neets from "../../assets/companyLogos/neets2.png";
+import DeepMotion from "../../assets/companyLogos/deepmotion.png";
+import Exabits from "../../assets/companyLogos/exanits2.png";
+import Cornell from "../../assets/companyLogos/Cornell-University-Logo.png";
 import NYU from "../../assets/companyLogos/nyu.png";
 import USE from "../../assets/companyLogos/use.png";
 
@@ -13,7 +13,7 @@ const CustomerLogos = ({
   gridColor = "rgba(0,0,0,0.03)",
   titleColor = "#1f2937",
   descriptionColor = "#4b5563",
-  btnColor = "#a349a4",
+  btnColor = "#A800FF",
 }) => {
   const logos = [
     { name: "MIT", src: MIT },
@@ -33,13 +33,24 @@ const CustomerLogos = ({
       0% { transform: translateX(0%); }
       100% { transform: translateX(-50%); }
     }
+
     .animate-scroll {
       animation: scroll-left 40s linear infinite;
       animation-play-state: running;
     }
+
+    /* Pause on hover (desktop only; hover doesn't exist on mobile) */
     .animate-scroll:hover {
       animation-play-state: paused;
     }
+
+    /* MOBILE SPEED BOOST */
+    @media (max-width: 640px) {
+      .animate-scroll {
+        animation-duration: 6s !important; /* Faster on mobile */
+      }
+    }
+
     .logo-filter {
       filter: grayscale(100%) opacity(0.5);
       transition: all 0.5s ease;
@@ -48,6 +59,7 @@ const CustomerLogos = ({
       filter: grayscale(0%) opacity(1);
     }
   `;
+
 
   return (
     <>

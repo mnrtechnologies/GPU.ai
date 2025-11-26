@@ -15,12 +15,12 @@ const Pricing = () => {
         <Hero
           title="Pricing"
           description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
-          gradientRight="rgba(255,255,255,0.05)"
-          gradientBottom="rgba(255,255,255,0.05)"
+          gradientRight="rgba(255,255,255,0.12)"
+          gradientBottom="rgba(255,255,255,0.12)"
           buttons={[
             {
               label: "Explore",
-              className: "bg-white text-[#a349a4] hover:bg-blue-100",
+              className: "bg-white text-[#A800FF] hover:bg-blue-100",
               onClick: () => console.log("Explore clicked"),
             },
             {

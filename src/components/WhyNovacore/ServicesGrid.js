@@ -63,7 +63,7 @@ const ServicesGrid = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">
         {services.map((service, index) => (
           <div key={index} className="bg-gray-100 rounded-xl p-6">
-            <i className={`${service.icon} text-[#a349a4] text-2xl mb-3 block`}></i>
+            <i className={`${service.icon} text-[#A800FF] text-2xl mb-3 block`}></i>
             <h3 className="font-extrabold text-black text-xl mb-2">
               {service.title}
             </h3>

@@ -35,7 +35,7 @@ const InfoCards = () => {
           key={index}
           className={`${card.bg} rounded-2xl p-8 max-w-sm min-h-[260px] flex flex-col gap-6 transition-all duration-300 border border-transparent hover:shadow-lg ${card.hoverBorder}`}
         >
-          <i className={`${card.icon} text-[#a349a4] text-4xl`}></i>
+          <i className={`${card.icon} text-[#A800FF] text-4xl`}></i>
           <h2 className="font-extrabold text-xl text-[#000000]">{card.title}</h2>
           <p className="text-[#6B6B6B] text-base leading-relaxed">{card.description}</p>
         </div>

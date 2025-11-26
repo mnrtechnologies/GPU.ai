@@ -15,7 +15,7 @@ const MultiGPUComputing = () => {
             <div className="flex flex-col gap-4">
               {/* Feature 1 */}
               <div className="flex gap-4 bg-white rounded-lg p-4 shadow-sm max-w-xl">
-                <div className="flex items-center justify-center w-12 h-12 bg-[#a349a4] rounded-md text-white">
+                <div className="flex items-center justify-center w-12 h-12 bg-[#A800FF] rounded-md text-white">
                   <i className="fas fa-project-diagram text-lg"></i>
                 </div>
                 <div className="text-gray-900 text-lg leading-relaxed">
@@ -27,7 +27,7 @@ const MultiGPUComputing = () => {
               </div>
               {/* Feature 2 */}
               <div className="flex gap-4 bg-white rounded-lg p-4 shadow-sm max-w-xl">
-                <div className="flex items-center justify-center w-12 h-12 bg-[#a349a4] rounded-md text-white">
+                <div className="flex items-center justify-center w-12 h-12 bg-[#A800FF] rounded-md text-white">
                   <i className="fas fa-cogs text-lg"></i>
                 </div>
                 <div className="text-gray-900 text-lg leading-relaxed">
@@ -39,7 +39,7 @@ const MultiGPUComputing = () => {
               </div>
               {/* Feature 3 */}
               <div className="flex gap-4 bg-white rounded-lg p-4 shadow-sm max-w-xl">
-                <div className="flex items-center justify-center w-12 h-12 bg-[#a349a4] rounded-md text-white">
+                <div className="flex items-center justify-center w-12 h-12 bg-[#A800FF] rounded-md text-white">
                   <i className="fas fa-chart-line text-lg"></i>
                 </div>
                 <div className="text-gray-900 text-lg leading-relaxed">

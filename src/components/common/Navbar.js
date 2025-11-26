@@ -38,49 +38,49 @@ const links = [
 
 const discoverItems = [
   {
-    icon: <Cpu className="text-[#a349a4]" />,
+    icon: <Cpu className="text-[#A800FF]" />,
     title: "Next Gen GPUs",
     desc: "Explore our next-gen GPU architecture and innovations",
     path: "/discover/next-gen-gpus",
   },
   {
-    icon: <Eye className="text-[#a349a4]" />,
+    icon: <Eye className="text-[#A800FF]" />,
     title: "Vision",
     desc: "Our vision for the future of GPU computing",
     path: "/discover/vision",
   },
   {
-    icon: <HardDrive className="text-[#a349a4]" />,
+    icon: <HardDrive className="text-[#A800FF]" />,
     title: "Hardware Solutions",
     desc: "Discover our range of GPU hardware solutions",
     path: "/discover/hardware-solutions",
   },
   {
-    icon: <Server className="text-[#a349a4]" />,
+    icon: <Server className="text-[#A800FF]" />,
     title: "Infrastructure",
     desc: "Explore our robust computing infrastructure",
     path: "/discover/infrastructure",
   },
   {
-    icon: <Cloud className="text-[#a349a4]" />,
+    icon: <Cloud className="text-[#A800FF]" />,
     title: "Cloud Platform",
     desc: "Learn about our cloud computing capabilities",
     path: "/discover/cloud-platform",
   },
   {
-    icon: <ShieldCheck className="text-[#a349a4]" />,
+    icon: <ShieldCheck className="text-[#A800FF]" />,
     title: "Security & Compliance",
     desc: "Understanding our security frameworks and compliance",
     path: "/discover/security-compliance",
   },
   {
-    icon: <Fingerprint className="text-[#a349a4]" />,
+    icon: <Fingerprint className="text-[#A800FF]" />,
     title: "Authentication",
     desc: "Secure access and identity management solutions",
     path: "/discover/authentication",
   },
   {
-    icon: <Gauge className="text-[#a349a4]" />,
+    icon: <Gauge className="text-[#A800FF]" />,
     title: "Performance",
     desc: "Benchmarks and performance optimization guides",
     path: "/discover/performance",
@@ -89,49 +89,49 @@ const discoverItems = [
 
 const productItems = [
   {
-    icon: <Cpu className="text-[#a349a4]" />,
+    icon: <Cpu className="text-[#A800FF]" />,
     title: "GPU Servers",
     desc: "High-performance GPU server solutions",
     path: "/product/gpu-servers",
   },
   {
-    icon: <Code className="text-[#a349a4]" />,
+    icon: <Code className="text-[#A800FF]" />,
     title: "Developer Tool",
     desc: "Comprehensive SDK and development tools",
     path: "/product/developer-tools",
   },
   {
-    icon: <Server className="text-[#a349a4]" />,
+    icon: <Server className="text-[#A800FF]" />,
     title: "GPU Clusters",
     desc: "Scalable GPU cluster management solutions",
     path: "/product/gpu-clusters",
   },
   {
-    icon: <Cloud className="text-[#a349a4]" />,
+    icon: <Cloud className="text-[#A800FF]" />,
     title: "API Services",
     desc: "RESTful APIs for GPU resource management",
     path: "/product/api-services",
   },
   {
-    icon: <BarChart3 className="text-[#a349a4]" />,
+    icon: <BarChart3 className="text-[#A800FF]" />,
     title: "Analytics Platform",
     desc: "Real-time GPU analytics and monitoring",
     path: "/product/analytics-platform",
   },
   {
-    icon: <Shield className="text-[#a349a4]" />,
+    icon: <Shield className="text-[#A800FF]" />,
     title: "GPU Stack",
     desc: "Full-stack GPU computing platform",
     path: "/product/gpu-stack",
   },
   {
-    icon: <BookOpen className="text-[#a349a4]" />,
+    icon: <BookOpen className="text-[#A800FF]" />,
     title: "SDK Libraries",
     desc: "Extensive libraries for GPU development",
     path: "/product/sdk-libraries",
   },
   {
-    icon: <ActivitySquare className="text-[#a349a4]" />,
+    icon: <ActivitySquare className="text-[#A800FF]" />,
     title: "Accelerators",
     desc: "Hardware acceleration modules and plugins",
     path: "/product/accelerators",
@@ -140,49 +140,49 @@ const productItems = [
 
 const solutionItems = [
   {
-    icon: <Briefcase className="text-[#a349a4]" />,
+    icon: <Briefcase className="text-[#A800FF]" />,
     title: "Enterprise Solutions",
     desc: "Customized GPU solutions for enterprises",
     path: "/solutions/enterprise-solutions",
   },
   {
-    icon: <BrainCircuit className="text-[#a349a4]" />,
+    icon: <BrainCircuit className="text-[#A800FF]" />,
     title: "AI & Machine Learning",
     desc: "Advanced AI/ML computing solutions",
     path: "/solutions/ai-machine-learning",
   },
   {
-    icon: <Layers3 className="text-[#a349a4]" />,
+    icon: <Layers3 className="text-[#A800FF]" />,
     title: "Deep Learning",
     desc: "Specialized deep learning infrastructures",
     path: "/solutions/deep-learning",
   },
   {
-    icon: <Workflow className="text-[#a349a4]" />,
+    icon: <Workflow className="text-[#A800FF]" />,
     title: "Workflow Automation",
     desc: "Streamline your GPU computing workflows",
     path: "/solutions/workflow-automation",
   },
   {
-    icon: <Microscope className="text-[#a349a4]" />,
+    icon: <Microscope className="text-[#A800FF]" />,
     title: "Research Solutions",
     desc: "GPU solutions for scientific research",
     path: "/solutions/research-solutions",
   },
   {
-    icon: <Users className="text-[#a349a4]" />,
+    icon: <Users className="text-[#A800FF]" />,
     title: "Collaboration Tools",
     desc: "Team-based GPU resource management",
     path: "/solutions/collaboration-tools",
   },
   {
-    icon: <Building2 className="text-[#a349a4]" />,
+    icon: <Building2 className="text-[#A800FF]" />,
     title: "Industry Specific",
     desc: "Tailored solutions for different industries",
     path: "/solutions/industry-specific",
   },
   {
-    icon: <Rocket className="text-[#a349a4]" />,
+    icon: <Rocket className="text-[#A800FF]" />,
     title: "Startup Program",
     desc: "Accelerate your startup with GPU power",
     path: "/solutions/startup-program",
@@ -246,7 +246,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 font-sans bg-transparent">
       <div
-        className={`px-8 py-6 rounded-b-2xl shadow-md max-w-[90rem] mx-auto ${navBgClass} outline outline-2 outline-[#a349a4]`}
+        className={`px-8 py-6 rounded-b-2xl shadow-md max-w-[90rem] mx-auto ${navBgClass} outline outline-2 outline-[#A800FF]`}
       >
         {/* Top Row: Logo + (Desktop links) + Hamburger */}
         <div className="flex justify-between items-center mb-4">

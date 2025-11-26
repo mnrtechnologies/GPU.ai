@@ -39,7 +39,7 @@ const ResearchBenefits = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {benefits.map((benefit, index) => (
             <div key={index} className="bg-white rounded-xl p-6">
-              <div className="text-[#a349a4] mb-4">
+              <div className="text-[#A800FF] mb-4">
                 <i className={`${benefit.icon} fa-lg`}></i>
               </div>
               <h3 className="font-sans font-bold text-lg mb-2">{benefit.title}</h3>

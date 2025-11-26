@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import HomePageLogo from '../../assets/HomePageLogo.png';
+import HomePageLogo from '../../assets/datacenter.jpg';
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -28,7 +28,7 @@ Custom buildouts available for US$100 million+ datacenters for AI
           <div className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={() => navigate('/contact')}
-              className="bg-[#a349a4] text-white px-6 sm:px-8 py-3 rounded-md text-base sm:text-lg font-medium hover:bg-[rgb(162,0,138)] transition"
+              className="bg-[#A800FF] text-white px-6 sm:px-8 py-3 rounded-md text-base sm:text-lg font-medium hover:bg-[rgb(162,0,138)] transition"
             >
               Get Started <span className="inline-block ml-2">→</span>
             </button>

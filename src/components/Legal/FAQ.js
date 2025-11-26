@@ -92,7 +92,7 @@ const FAQ = () => {
               <div className="flex items-center space-x-3">
                 <div
                   className={`${
-                    openIndex === index ? 'bg-[#a349a4] text-white' : 'bg-[#d9eafc] text-[#a349a4]'
+                    openIndex === index ? 'bg-[#A800FF] text-white' : 'bg-[#d9eafc] text-[#A800FF]'
                   } font-bold rounded-md w-7 h-7 flex items-center justify-center select-none`}
                 >
                   {index + 1}

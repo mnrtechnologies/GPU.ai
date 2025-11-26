@@ -59,7 +59,7 @@ const TeamSection = () => {
             </div>
             <div className="p-6 text-left">
               <h3 className="font-bold text-xl text-gray-900">{member.name}</h3>
-              <p className="text-[#a349a4] text-sm mb-2">{member.role}</p>
+              <p className="text-[#A800FF] text-sm mb-2">{member.role}</p>
               <p className="text-gray-700 text-sm text-justify">{member.description}</p>
             </div>
           </article>

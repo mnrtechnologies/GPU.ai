@@ -98,7 +98,7 @@ const DisclaimerCard = ({ icon, bgColor, iconBg, title, text }) => (
 
 const PolicyCard = ({ icon, title, text }) => (
   <article className="bg-[#e9ebec] rounded-md p-8 flex gap-4 items-start shadow-sm">
-    <div className="bg-[#a349a4] flex items-center justify-center rounded-md w-10 h-10 flex-shrink-0">
+    <div className="bg-[#A800FF] flex items-center justify-center rounded-md w-10 h-10 flex-shrink-0">
       <i className={`fas fa-${icon} text-white text-lg`} />
     </div>
     <div>

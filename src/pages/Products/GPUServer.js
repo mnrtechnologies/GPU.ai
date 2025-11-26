@@ -58,13 +58,13 @@ const GPUServer = () => {
         <Hero
           title="GPU Servers"
           description="Engineered for unprecedented AI performance, our enterprise GPU servers combine the latest NVIDIA A100 Tensor Core GPUs with optimized system architecture and advanced cooling solutions. Featuring high-bandwidth NVLink interconnects, PCIe Gen4 connectivity, and enterprise-grade reliability with redundant power supplies and hot-swappable components. Our servers deliver up to 312 TFLOPS of AI performance per system, with support for multi-instance GPU virtualization and dynamic tensor core partitioning for optimal resource utilization."
-          gradientRight="rgba(255,255,255,0.05)"
-          gradientBottom="rgba(255,255,255,0.05)"
+          gradientRight="rgba(255,255,255,0.12)"
+          gradientBottom="rgba(255,255,255,0.12)"
           buttons={[
             {
               label: "Explore",
               className:
-                "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+                "bg-white text-[#A800FF] hover:bg-[rgb(162,0,138)] hover:text-white",
               onClick: () => console.log("Explore clicked"),
             },
             {
@@ -106,12 +106,12 @@ const GPUServer = () => {
       {/* Onboarding Section */}
       <FadeInWhenVisible>
         <Onboarding
-          bgColor="#a349a4"
-          gridColor="rgba(255, 255, 255, 0.05)"
+          bgColor="#A800FF"
+          gridColor="rgba(255, 255, 255, 0.12)"
           titleColor="#ffffff"
           descriptionColor="#ffffff"
           btnColor="#ffffff"
-          btnTextColor="#a349a4"
+          btnTextColor="#A800FF"
         />
       </FadeInWhenVisible>
 

@@ -70,7 +70,7 @@ export default function DeploymentOptions() {
             <div
               className={`${item.bgColor} flex justify-center items-center h-36`}
             >
-              <i className={`${item.icon} text-[#a349a4] text-4xl`} />
+              <i className={`${item.icon} text-[#A800FF] text-4xl`} />
             </div>
             <div className="p-4">
               <h2 className="font-semibold text-[16px] mb-1">{item.title}</h2>

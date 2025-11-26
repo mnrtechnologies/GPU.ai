@@ -15,8 +15,8 @@ const Services = () => {
         <Hero
           title="Services and Offerings"
           description="Comprehensive solutions for AI infrastructure, deployment, and optimization. From dedicated servers to GPU procurement, we've got you covered."
-          gradientRight="rgba(0,0,0,0.05)"
-          gradientBottom="rgba(0,0,0,0.05)"
+          gradientRight="rgba(0,0,0,0.12)"
+          gradientBottom="rgba(0,0,0,0.12)"
           bgColor="bg-gray-100"
           titleColor="text-gray-800"
           descriptionColor="text-gray-500"

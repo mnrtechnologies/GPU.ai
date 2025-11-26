@@ -17,8 +17,8 @@ const Research = () => {
           description="Accelerate your research with our state-of-the-art GPU
               infrastructure and collaborative environment. Join a community of
               researchers pushing the boundaries of AI and scientific computing."
-          gradientRight="rgba(0,0,0,0.05)"
-          gradientBottom="rgba(0,0,0,0.05)"
+          gradientRight="rgba(0,0,0,0.12)"
+          gradientBottom="rgba(0,0,0,0.12)"
           bgColor="bg-gray-100"
           titleColor="text-gray-800"
           descriptionColor="text-gray-500"

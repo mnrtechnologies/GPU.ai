@@ -4,7 +4,7 @@ const TestimonialCard = ({
   quote = "Thank you for the great GPU service. It has been instrumental to our R&D.",
   companyLogo = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/1200px-Disney%2B_logo.svg.png",
 }) => {
-  const accentColor = "#a349a4"; 
+  const accentColor = "#A800FF"; 
   const quoteTextColor = "#1f2937";
   const authorTitle = "Former CTO of Disney";
 

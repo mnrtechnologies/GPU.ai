@@ -43,12 +43,12 @@ const Why = () => {
         <Hero
           title="Why GPU.ai"
           description="GPU.ai offers ultra-competitive pricing for large-scale deep learning, providing unrivaled access to GPUs and high-speed, adaptable infrastructure through premier data centers in the United States and India. Effortlessly deploy containers or virtual machines with the latest NVIDIA GPUs, delivering the computational power needed for AI training, fine-tuning, and inference. Our infrastructure ensures high performance and scalability to support your most demanding AI workloads. Deploy your models using Docker, Kubernetes, or RESTful APIs. A dedicated engineer will work with you to identify the best solution for your needs. Operate on any machine learning framework. Choose from an extensive collection of pre-built templates, or bring your own configuration."
-          gradientRight="rgba(255,255,255,0.05)"
-          gradientBottom="rgba(255,255,255,0.05)"
+          gradientRight="rgba(255,255,255,0.12)"
+          gradientBottom="rgba(255,255,255,0.12)"
           buttons={[
             {
               label: "Explore",
-              className: "bg-white text-[#a349a4] hover:bg-blue-100",
+              className: "bg-white text-[#A800FF] hover:bg-blue-100",
               onClick: () => console.log("Explore clicked"),
             },
             {
@@ -88,12 +88,12 @@ const Why = () => {
 
       <FadeInWhenVisible>
         <Onboarding
-          bgColor="#a349a4"
-          gridColor="rgba(255, 255, 255, 0.05)"
+          bgColor="#A800FF"
+          gridColor="rgba(255, 255, 255, 0.12)"
           titleColor="#ffffff"
           descriptionColor="#ffffff"
           btnColor="#ffffff"
-          btnTextColor="#a349a4"
+          btnTextColor="#A800FF"
         />
       </FadeInWhenVisible>
 

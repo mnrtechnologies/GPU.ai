@@ -23,9 +23,9 @@ const GpuArchitecture = () => {
           {/* Features */}
           <div className="flex-1 flex flex-col justify-center gap-6 overflow-y-auto py-4 mt-4">
             <div className="bg-white p-5 rounded-lg shadow flex items-start gap-4">
-              <i className="fas fa-microchip text-[#a349a4] text-2xl mt-1"></i>
+              <i className="fas fa-microchip text-[#A800FF] text-2xl mt-1"></i>
               <div>
-                <p className="text-[#a349a4] font-bold font-sans">
+                <p className="text-[#A800FF] font-bold font-sans">
                   Advanced Tensor Cores
                 </p>
                 <p className="text-gray-800 text-sm">
@@ -35,9 +35,9 @@ const GpuArchitecture = () => {
             </div>
 
             <div className="bg-white p-5 rounded-lg shadow flex items-start gap-4">
-              <i className="fas fa-memory text-[#a349a4] text-2xl mt-1"></i>
+              <i className="fas fa-memory text-[#A800FF] text-2xl mt-1"></i>
               <div>
-                <p className="font-bold font-sans text-[#a349a4]">HBM3e Memory</p>
+                <p className="font-bold font-sans text-[#A800FF]">HBM3e Memory</p>
                 <p className="text-gray-800 text-sm">
                   141 GB ultra‑fast HBM3e at 4.8 TB/s for massive models.
                 </p>
@@ -45,9 +45,9 @@ const GpuArchitecture = () => {
             </div>
 
             <div className="bg-white p-5 rounded-lg shadow flex items-start gap-4">
-              <i className="fas fa-bolt text-[#a349a4] text-2xl mt-1"></i>
+              <i className="fas fa-bolt text-[#A800FF] text-2xl mt-1"></i>
               <div>
-                <p className="font-bold font-sans text-[#a349a4]">Transformer Engine</p>
+                <p className="font-bold font-sans text-[#A800FF]">Transformer Engine</p>
                 <p className="text-gray-800 text-sm">
                   Built to accelerate transformer‑model training & inference.
                 </p>

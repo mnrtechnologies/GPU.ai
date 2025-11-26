@@ -56,13 +56,13 @@ const DeepLearning = () => {
         <Hero
           title="Deep Learning"
           description="Purpose-built infrastructure for training large neural networks and transformers Optimize resource allocation with dynamic GPU partitioning and scheduling Access specialized hardware configurations for different model architectures"
-          gradientRight="rgba(255,255,255,0.05)"
-          gradientBottom="rgba(255,255,255,0.05)"
+          gradientRight="rgba(255,255,255,0.12)"
+          gradientBottom="rgba(255,255,255,0.12)"
           buttons={[
             {
               label: "Explore",
               className:
-                "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+                "bg-white text-[#A800FF] hover:bg-[rgb(162,0,138)] hover:text-white",
               onClick: () => console.log("Explore clicked"),
             },
             {
@@ -90,12 +90,12 @@ const DeepLearning = () => {
 
       <FadeInWhenVisible>
         <Onboarding
-          bgColor="#a349a4"
-          gridColor="rgba(255, 255, 255, 0.05)"
+          bgColor="#A800FF"
+          gridColor="rgba(255, 255, 255, 0.12)"
           titleColor="#ffffff"
           descriptionColor="#ffffff"
           btnColor="#ffffff"
-          btnTextColor="#a349a4"
+          btnTextColor="#A800FF"
         />
       </FadeInWhenVisible>
 

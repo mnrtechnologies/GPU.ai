@@ -5,7 +5,7 @@ const Hero = ({
   description,
   gradientRight,
   gradientBottom,
-  bgColor = "bg-[#a349a4]",
+  bgColor = "bg-[#A800FF]",
   titleColor = "text-white",
   descriptionColor = "text-white",
   buttons = [],

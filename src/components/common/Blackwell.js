@@ -16,7 +16,7 @@ const Blackwell = ({ title, description, onButtonClick, boxBgColor = '#ecf9d6' }
         >
           <h3 className="font-extrabold text-base text-gray-900 mb-4">{title}</h3>
           <button
-            className="bg-[#a349a4] text-white font-extrabold text-base rounded-md px-5 py-3 w-max"
+            className="bg-[#A800FF] text-white font-extrabold text-base rounded-md px-5 py-3 w-max"
             type="button"
             onClick={onButtonClick}
           >

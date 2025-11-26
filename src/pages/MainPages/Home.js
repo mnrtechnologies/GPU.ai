@@ -109,6 +109,7 @@ const Home = () => {
   return (
     <div>
       <FadeInWhenVisible><HeroSection /></FadeInWhenVisible>
+      <FadeInWhenVisible><Testimonial /></FadeInWhenVisible>
       <FadeInWhenVisible><Onboarding /></FadeInWhenVisible>
       <FadeInWhenVisible><FeaturesGrid /></FadeInWhenVisible>
 
@@ -143,7 +144,6 @@ const Home = () => {
       <FadeInWhenVisible><AIComputing /></FadeInWhenVisible>
       <FadeInWhenVisible><BlackwellComponent /></FadeInWhenVisible>
       <ArchitectureCompnenet />
-      <FadeInWhenVisible><Testimonial /></FadeInWhenVisible>
       <FadeInWhenVisible><Footer /></FadeInWhenVisible>
     </div>
   );

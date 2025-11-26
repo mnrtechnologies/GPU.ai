@@ -16,11 +16,11 @@ const BigFeatureCard = () => {
           </p>
         </div>
         <div className="flex gap-4 mt-4">
-          <div className="flex items-center gap-2 text-[#a349a4]
+          <div className="flex items-center gap-2 text-[#A800FF]
 ">
             <span>🔧</span> Bare Metal Performance
           </div>
-          <div className="flex items-center gap-2 text-[#a349a4]
+          <div className="flex items-center gap-2 text-[#A800FF]
 ">
             <span>🔗</span> InfiniBand Networking
           </div>

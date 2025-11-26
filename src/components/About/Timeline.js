@@ -64,7 +64,7 @@ const Timeline = () => {
         <div key={index} className="mb-28 flex justify-center relative">
           {/* Blue Circle aligned with title */}
           <div className="absolute left-[calc(29%-10rem)] top-7 z-20">
-            <div className="h-6 w-6 rounded-full bg-white border-8 border-[#a349a4]" />
+            <div className="h-6 w-6 rounded-full bg-white border-8 border-[#A800FF]" />
           </div>
 
           {/* Content Box */}
@@ -72,7 +72,7 @@ const Timeline = () => {
             className={`relative w-[80%] rounded-2xl p-6 shadow-md ${item.bgColor}`}
           >
             {/* Year Tag */}
-            <div className="absolute -top-10 left-[50%] -translate-x-1/2 bg-[#a349a4] text-white px-4 py-1 rounded-full text-lg  font-semibold shadow-md">
+            <div className="absolute -top-10 left-[50%] -translate-x-1/2 bg-[#A800FF] text-white px-4 py-1 rounded-full text-lg  font-semibold shadow-md">
               {item.year}
             </div>
             <h3 className="text-xl font-bold font-sans mb-2">{item.title}</h3>

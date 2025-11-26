@@ -62,7 +62,7 @@ const ResearchSolution = () => {
             {
               label: "Explore",
               className:
-                "bg-[#a349a4] text-white hover:bg-[rgb(162,0,138)] hover:text-white",
+                "bg-[#A800FF] text-white hover:bg-[rgb(162,0,138)] hover:text-white",
               onClick: () => console.log("Explore clicked"),
             },
             {
@@ -92,12 +92,12 @@ const ResearchSolution = () => {
       {/* CTA Animation */}
       <FadeInWhenVisible>
         <Onboarding
-          bgColor="#a349a4"
-          gridColor="rgba(255, 255, 255, 0.05)"
+          bgColor="#A800FF"
+          gridColor="rgba(255, 255, 255, 0.12)"
           titleColor="#ffffff"
           descriptionColor="#ffffff"
           btnColor="#ffffff"
-          btnTextColor="#a349a4"
+          btnTextColor="#A800FF"
         />
       </FadeInWhenVisible>
 

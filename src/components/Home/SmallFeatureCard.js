@@ -2,7 +2,7 @@ import React from "react";
 
 const SmallFeatureCard = ({ image, title, description }) => {
   return (
-    <div className="bg-white rounded-2xl overflow-hidden shadow-md flex flex-col h-full hover:border-2 hover:border-[#a349a4]">
+    <div className="bg-white rounded-2xl overflow-hidden shadow-md flex flex-col h-full hover:border-2 hover:border-[#A800FF]">
       {image && (
         <img
           src={image}

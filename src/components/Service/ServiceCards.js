@@ -83,7 +83,7 @@ const ServiceCards = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div key={index} className={`${service.bg} rounded-xl p-8`}>
-            <div className="text-[#a349a4] text-3xl mb-6">
+            <div className="text-[#A800FF] text-3xl mb-6">
               <i className={service.icon}></i>
             </div>
             <h2 className="font-extrabold text-xl mb-4 text-[#111111]">{service.title}</h2>
@@ -105,7 +105,7 @@ const ServiceCards = () => {
               {(service.features || service.points).map((item, i) => (
                 <li key={i} className="flex items-center gap-2">
                   <svg
-                    className="w-4 h-4 text-[#a349a4]"
+                    className="w-4 h-4 text-[#A800FF]"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="2"
@@ -122,7 +122,7 @@ const ServiceCards = () => {
             </ul>
             <button
               type="button"
-              className={`w-full ${service.buttonBg} text-[#a349a4] font-semibold text-lg rounded-lg py-4 ${service.hoverBg} transition`}
+              className={`w-full ${service.buttonBg} text-[#A800FF] font-semibold text-lg rounded-lg py-4 ${service.hoverBg} transition`}
             >
               Reach Out →
             </button>

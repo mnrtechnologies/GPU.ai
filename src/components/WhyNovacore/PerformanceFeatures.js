@@ -21,7 +21,7 @@ const PerformanceFeatures = ({performanceData,title="Performance Features", desc
               }`}
             >
               <div className="bg-[#dbeeff] p-3 rounded-md">
-                <item.icon className="w-8 h-8 text-[#a349a4]" />
+                <item.icon className="w-8 h-8 text-[#A800FF]" />
               </div>
               <div>
                 <p className="text-md text-[#6b7280]">{item.title}</p>

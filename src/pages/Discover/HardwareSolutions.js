@@ -42,15 +42,15 @@ const HardwareSolutions = () => {
         <Hero
           title="Enterprise Hardware Solutions"
           description="High-performance computing infrastructure designed for enterprise-scale AI workloads. From H100 to B200s, B200, our clusters are optimized for GenAI workloads and powered by NvLink."
-          gradientRight="rgba(0,0,0,0.05)"
-          gradientBottom="rgba(0,0,0,0.05)"
+          gradientRight="rgba(0,0,0,0.12)"
+          gradientBottom="rgba(0,0,0,0.12)"
           bgColor="bg-gray-100"
           titleColor="text-gray-800"
           descriptionColor="text-gray-500"
           buttons={[
             {
               label: "Explore Solutions",
-              className: "bg-[#a349a4] text-white hover:bg-[rgb(162,0,138)]",
+              className: "bg-[#A800FF] text-white hover:bg-[rgb(162,0,138)]",
               onClick: () => console.log("Explore clicked"),
             },
             {

@@ -10,7 +10,7 @@ const InnovationSafety = () => {
           backgroundImage: `
             linear-gradient(to right, rgba(0,0,0,0.04) 1px, transparent 1px),
             linear-gradient(to bottom, rgba(0,0,0,0.04) 1px, transparent 1px),
-            linear-gradient(to right, #a349a4, #a349a6)`,
+            linear-gradient(to right, #A800FF, #a349a6)`,
           backgroundSize: '20px 20px, 100% 100%',
         }}
       >

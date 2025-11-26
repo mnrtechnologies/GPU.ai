@@ -7,7 +7,7 @@ const ServicesGrid = ({ services }) => {
         {services.map((service, index) => (
           <div
             key={index}
-            className={`group rounded-xl p-6 bg-gray-100 transition-all duration-300 border border-transparent hover:border-[#a349a4]`}
+            className={`group rounded-xl p-6 bg-gray-100 transition-all duration-300 border border-transparent hover:border-[#A800FF]`}
           >
             {/* Grid pattern on hover */}
             <div
@@ -22,7 +22,7 @@ const ServicesGrid = ({ services }) => {
             {/* Content layer */}
             <div className=" z-10">
               <div
-                className="text-[#a349a4] text-3xl mb-4"
+                className="text-[#A800FF] text-3xl mb-4"
               >
                 {service.icon}
               </div>
@@ -32,8 +32,8 @@ const ServicesGrid = ({ services }) => {
               </p>
               <a
                 href="#"
-                className="text-[#a349a4]
- inline-flex items-center font-normal text-base group-hover:border-[#a349a4] transition-colors duration-300"
+                className="text-[#A800FF]
+ inline-flex items-center font-normal text-base group-hover:border-[#A800FF] transition-colors duration-300"
               >
                 Learn more
                 <svg

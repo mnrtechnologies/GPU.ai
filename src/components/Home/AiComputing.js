@@ -19,7 +19,7 @@ const AIComputing = () => {
 
         {/* Text and Button Section */}
         <div className="flex-1 max-w-2xl">
-          <p className="text-lg text-[#a349a4] mb-4">Coming Soon</p>
+          <p className="text-lg text-[#A800FF] mb-4">Coming Soon</p>
           <h1 className="text-4xl text-gray-800 font-extrabold leading-tight mb-6">
             Experience the Next Generation of AI Computing
           </h1>
@@ -29,10 +29,10 @@ const AIComputing = () => {
             deploying them in early 2025.
           </p>
           <div className="flex flex-wrap gap-6">
-            <button onClick={()=> navigate("/contact")} className="bg-[#a349a4] text-white rounded-lg px-8 py-4 text-lg font-medium hover:bg-[rgb(162,0,138)] transition">
+            <button onClick={()=> navigate("/contact")} className="bg-[#A800FF] text-white rounded-lg px-8 py-4 text-lg font-medium hover:bg-[rgb(162,0,138)] transition">
               Reserve your cluster
             </button>
-            <button className="border border-[#a349a4] text-[#0B1E40] rounded-lg px-8 py-4 text-lg font-medium hover:bg-[#E6F0FA] transition">
+            <button className="border border-[#A800FF] text-[#0B1E40] rounded-lg px-8 py-4 text-lg font-medium hover:bg-[#E6F0FA] transition">
               Learn more
             </button>
           </div>

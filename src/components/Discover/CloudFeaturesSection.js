@@ -20,7 +20,7 @@ const features = [
 
 const CloudFeatureCard = ({ icon, title, description }) => (
     <div className="flex items-start gap-2 sm:gap-3 max-w-xs sm:max-w-[220px]">
-      <i className={`${icon} text-[#a349a4] text-lg sm:text-xl mt-1`} />
+      <i className={`${icon} text-[#A800FF] text-lg sm:text-xl mt-1`} />
       <div>
         <h3 className="font-semibold text-base sm:text-lg">{title}</h3>
         <p className="text-sm sm:text-base font-sans text-gray-700 leading-relaxed">

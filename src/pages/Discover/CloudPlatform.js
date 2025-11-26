@@ -16,8 +16,8 @@ const CloudPlatform = () => {
         <Hero
           title="Cloud Platform"
           description="Scale your AI infrastructure with our enterprise-ready cloud platform, designed to supercharge your GPU-accelerated workloads with unparalleled performance and scalability. Unlock maximum potential with our secure, flexible, and high-performance cloud platform, optimized for GPU-intensive applications and backed by industry-leading expertise."
-          gradientRight="rgba(255,255,255,0.05)"
-          gradientBottom="rgba(255,255,255,0.05)"
+          gradientRight="rgba(255,255,255,0.12)"
+          gradientBottom="rgba(255,255,255,0.12)"
         />
       </FadeInWhenVisible>
 
@@ -42,13 +42,13 @@ const CloudPlatform = () => {
         <Hero
           title="Pricing"
           description="Introducing our latest B200 GPU, built on the revolutionary Hopper architecture. Designed to deliver unprecedented performance for AI and high-performance computing workloads, featuring advanced Tensor Cores and transformative memory technology."
-          gradientRight="rgba(255,255,255,0.05)"
-          gradientBottom="rgba(255,255,255,0.05)"
+          gradientRight="rgba(255,255,255,0.12)"
+          gradientBottom="rgba(255,255,255,0.12)"
           buttons={[
             {
               label: "Explore",
               className:
-                "bg-white text-[#a349a4] hover:bg-[rgb(162,0,138)] hover:text-white",
+                "bg-white text-[#A800FF] hover:bg-[rgb(162,0,138)] hover:text-white",
               onClick: () => console.log("Explore clicked"),
             },
             {

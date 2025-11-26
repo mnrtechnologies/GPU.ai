@@ -68,7 +68,7 @@ const LegalInfo = () => {
       {/* Company Information */}
       <section className="bg-gray-100 rounded-lg p-6 text-md text-gray-600 ">
         <h2 className="flex items-center gap-2 font-semibold text-gray-900 mb-3 text-2xl">
-          <i className="fas fa-building text-[#a349a4]"></i>
+          <i className="fas fa-building text-[#A800FF]"></i>
           Company Information
         </h2>
         <p className="mb-4">NovaCore Technologies Inc.</p>
@@ -80,7 +80,7 @@ const LegalInfo = () => {
       {/* Licensing & Compliance */}
       <section className="bg-gray-200 rounded-lg p-6">
         <h2 className="text-2xl font-bold  flex items-center gap-2 mb-3">
-          <i className="fas fa-handshake text-[#a349a4]"></i>
+          <i className="fas fa-handshake text-[#A800FF]"></i>
           Licensing &amp; Compliance
         </h2>
         <div className="text-md text-gray-700 space-y-3">
@@ -108,7 +108,7 @@ const LegalInfo = () => {
       {/* Legal Resources */}
       <section className="bg-gray-200 rounded-lg p-6">
         <h2 className="text-2xl font-bold  flex items-center gap-2 mb-3">
-          <i className="fas fa-gavel text-[#a349a4]"></i>
+          <i className="fas fa-gavel text-[#A800FF]"></i>
           Legal Resources
         </h2>
         <div className="text-md text-gray-700 flex flex-col sm:flex-row sm:justify-between gap-6">
@@ -136,7 +136,7 @@ const LegalInfo = () => {
       {/* International Operations */}
       <section className="bg-gray-200 rounded-lg p-6 text-gray-700 leading-relaxed">
         <h2 className="font-semibold text-2xl text-gray-900 mb-3 flex items-center gap-2">
-          <i className="fas fa-globe text-[#a349a4]"></i>
+          <i className="fas fa-globe text-[#A800FF]"></i>
           International Operations
         </h2>
         <p className="mb-3">
@@ -155,7 +155,7 @@ const LegalInfo = () => {
       {/* Contact Legal Department */}
       <section className="bg-gray-200 rounded-lg p-6  text-gray-700 leading-relaxed">
         <h2 className="font-semibold text-2xl text-gray-900 mb-3 flex items-center gap-2">
-          <i className="fas fa-file-alt text-[#a349a4]"></i>
+          <i className="fas fa-file-alt text-[#A800FF]"></i>
           Contact Legal Department
         </h2>
         <p className="mb-4">For legal inquiries and documentation requests:</p>

@@ -23,7 +23,7 @@ const Onboarding2 = ({ title, description, buttonLabel, onButtonClick }) => {
         </p>
 
         <button
-          className="group bg-[#a349a4] hover:bg-[rgb(162,0,138)] text-white font-semibold text-md tracking-widest py-4 px-7 rounded-2xl shadow-md inline-flex items-center justify-center"
+          className="group bg-[#A800FF] hover:bg-[rgb(162,0,138)] text-white font-semibold text-md tracking-widest py-4 px-7 rounded-2xl shadow-md inline-flex items-center justify-center"
           type="button"
           onClick={onButtonClick}
         >
