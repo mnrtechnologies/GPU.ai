@@ -15,6 +15,7 @@ import Why from "./pages/MainPages/Why";
 import Team from "./pages/MainPages/Team";
 import Legal from "./pages/MainPages/Legal";
 import Contact from "./pages/MainPages/Contact";
+import OpenSource from "./pages/MainPages/OpenSource";
 
 // Product
 import APIServices from "./pages/Products/APIServices"
@@ -72,6 +73,7 @@ const App = () => {
           <Route path="/research" element={<Research />} />
           <Route path="/services" element={<Services />} />
           <Route path="why-gpu-ai" element={<Why />} />
+          <Route path="/open-source" element={<OpenSource />} />
           <Route path="/team" element={<Team />} />
           <Route path="/legal" element={<Legal />} />
           <Route path="/payment" element={<Payment />} />

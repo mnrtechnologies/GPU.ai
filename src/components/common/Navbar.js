@@ -34,6 +34,7 @@ const links = [
   { name: "Solutions" },
   { name: "Pricing", path: "/pricing" },
   { name: "Why GPU.ai", path: "/why-gpu-ai" },
+  { name: "Open Source", path: "/open-source" },
 ];
 
 const discoverItems = [

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Onboarding from "../../components/common/Onboarding";
 import ServicesGrid from "../../components/Home/ServicesGrid";
 import Footer from "../../components/common/Footer";
@@ -106,8 +107,57 @@ const CardData = [
 ];
 
 const Home = () => {
+  const navigate = useNavigate();
+  const [showBanner, setShowBanner] = useState(true);
+
+  useEffect(() => {
+    // Check if banner was dismissed
+    const bannerDismissed = localStorage.getItem('openSourceBannerDismissed');
+    if (bannerDismissed) {
+      setShowBanner(false);
+    }
+  }, []);
+
+  const handleDismissBanner = () => {
+    localStorage.setItem('openSourceBannerDismissed', 'true');
+    setShowBanner(false);
+  };
+
   return (
     <div>
+      {/* Open Source Banner */}
+      {showBanner && (
+        <div className="fixed top-[150px] left-0 right-0 z-[60] animate-slide-down">
+          <div className="bg-gradient-to-r from-[#A800FF] to-purple-600 text-white px-4 py-3 shadow-lg">
+            <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
+              <div className="flex items-center gap-3 flex-1">
+                <span className="text-2xl">🚀</span>
+                <p className="text-sm sm:text-base font-medium">
+                  <span className="font-bold">New:</span> Check out our open source GPU cloud provisioning technology - GPU.ai Bare Metal
+                </p>
+              </div>
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={() => navigate('/open-source')}
+                  className="bg-white text-[#A800FF] px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap"
+                >
+                  Learn More
+                </button>
+                <button
+                  onClick={handleDismissBanner}
+                  className="text-white hover:text-gray-200 transition-colors"
+                  aria-label="Dismiss banner"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <FadeInWhenVisible><HeroSection /></FadeInWhenVisible>
       <FadeInWhenVisible><Testimonial /></FadeInWhenVisible>
       <FadeInWhenVisible><Onboarding /></FadeInWhenVisible>
