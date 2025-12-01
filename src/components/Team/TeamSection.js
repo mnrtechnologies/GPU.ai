@@ -1,8 +1,9 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import Ashish from "../../assets/team/Will.png"
-import John from "../../assets/team/John.jpg"
-import Will from "../../assets/team/Will_og.jpg"
+import Ashish from "../../assets/team/Ashish.png"
+import John from "../../assets/team/John.png"
+import Will from "../../assets/team/Will.jpg"
+import Tuyen from "../../assets/team/Tuyen.jpg"
 
 const teamMembers = [
   {
@@ -43,12 +44,21 @@ const teamMembers = [
   },
     {
     name: "Ashish Singhania",
-    role: "Board of Director",
+    role: "Board Member",
     image: Ashish,
     alt: "Portrait of Ashish",
     description:
-      "Board of Director at GPU.ai",
+      "Founder & MD of Rashi Fincorp, bringing deep expertise in NBFC operations, structured finance, and long-term equity investing to support GPU.ai’s financial and strategic direction.",
     linkedin: "https://in.linkedin.com/in/ashish-singhania-221598134",
+  },
+  {
+    name: "Tuyen Nguyen ",
+    role: "Board Member",
+    image: Tuyen,
+    alt: "Portrait of Nguyen Tuyen",
+    description:
+      "Founder of Saigon Gas and co-founder of Khai Sang Corporation (Renaissance & EMASI), bringing decades of leadership in Vietnam and the U.S. to guide GPU.ai’s growth. ",
+    
   },
 ];
 
