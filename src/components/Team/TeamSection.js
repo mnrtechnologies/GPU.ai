@@ -1,34 +1,55 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
+import Ashish from "../../assets/team/Will.png"
+import John from "../../assets/team/John.jpg"
+import Will from "../../assets/team/Will_og.jpg"
 
 const teamMembers = [
   {
     name: "Aryamaan Singhania",
-    role: "Director | Co Founder",
+    role: "Co Founder",
     image: "https://novacore-df106.web.app/assets/aryaman-CUdQwMgR.jpg",
     alt: "Portrait of Aryamaan Singhania",
     description:
-      "Co-founder of Novacore Innovations, with expertise in cloud technology, business development, and sustainable investment, leveraging experience from private equity and strategic leadership roles.",
+      "Co-founder of GPU.ai, with expertise in cloud technology, business development, and sustainable investment, leveraging experience from private equity and strategic leadership roles.",
     linkedin: "https://www.linkedin.com/in/aryamaansinghania",
   },
   {
+    name: "John Nguyen",
+    role: "Co Founder",
+    image: John,
+    alt: "Portrait of John Nguyen",
+    description:
+      "Co-founder at GPU.ai",
+    linkedin: "https://www.linkedin.com/in/john-nguyen-b856a5206/",
+  },
+  {
     name: "Ranbir Badwal",
-    role: "Director | Co Founder",
+    role: "Co Founder",
     image: "https://novacore-df106.web.app/assets/Ranbir-badwal-profile-U-UPCbLM.jpg",
     alt: "Portrait of Ranbir Badwal",
     description:
-      "Co-founder of Novacore Innovations, with expertise in data protection, financial strategy, and product operations, leveraging leadership experience at Druva and Harmonic Inc. to drive growth and innovation in the cloud services industry.",
+      "Co-founder of GPU.ai, with expertise in data protection, financial strategy, and product operations, leveraging leadership experience at Druva and Harmonic Inc. to drive growth and innovation in the cloud services industry.",
     linkedin: "https://www.linkedin.com/in/ranbir-badwal-216015204/",
   },
-  // {
-  //   name: "Narendra Reddy",
-  //   role: "CTO / CIO",
-  //   image: "https://novacore-df106.web.app/assets/Narendra-T5oIfjv6.jpeg",
-  //   alt: "Portrait of Narendra Reddy",
-  //   description:
-  //     "Chief Technology Officer (CTO) / Chief Information officer (CIO) at Novacore Innovations, with over 20 years of experience in technology strategy, cloud solutions, and business operations. Previously served as CTO at Aveva and held leadership roles at Microsoft, Xerox, Dell, and DXC, driving innovation.",
-  //   linkedin: "https://www.linkedin.com/in/narendra-reddy-g/",
-  // },
+  {
+    name: "Will Han",
+    role: "CFO",
+    image: Will,
+    alt: "Portrait of Will Han",
+    description:
+      "CFO at GPU.ai",
+    linkedin: "https://www.linkedin.com/in/will-h-81b7671bb/",
+  },
+    {
+    name: "Ashish Singhania",
+    role: "Board of Director",
+    image: Ashish,
+    alt: "Portrait of Ashish",
+    description:
+      "Board of Director at GPU.ai",
+    linkedin: "https://in.linkedin.com/in/ashish-singhania-221598134",
+  },
 ];
 
 const TeamSection = () => {

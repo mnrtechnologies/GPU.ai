@@ -7,7 +7,7 @@ const LegalCenter = () => {
         Legal Center
       </h1>
       <p className="text-center text-md text-gray-500 max-w-3xl mx-auto mb-10 leading-relaxed">
-        Your comprehensive guide to NovaCore's legal documentation and policies.
+        Your comprehensive guide to GPU.ai's legal documentation and policies.
         This section provides detailed information about our Terms of Service,
         Privacy Policy, Cookie Policy, and other legal documents that govern
         your use of our products and services.
@@ -20,7 +20,7 @@ const LegalCenter = () => {
           bgColor="#dd2525"
           iconBg="#e55a5a"
           title="Security Disclaimer"
-          text="NovaCore is not responsible for any security breaches, data loss,
+          text="GPU.ai is not responsible for any security breaches, data loss,
             or damages resulting from the deployment of malicious software by
             users. Users are solely responsible for verifying the safety and
             integrity of any software they deploy."
@@ -30,7 +30,7 @@ const LegalCenter = () => {
           bgColor="#f15a0a"
           iconBg="#f28a3a"
           title="Liability Limitation"
-          text="We provide our services 'as is' without any warranty. NovaCore shall
+          text="We provide our services 'as is' without any warranty. GPU.ai shall
             not be liable for any damages, including but not limited to direct,
             indirect, special, incidental, or consequential damages arising from
             the use of our services."

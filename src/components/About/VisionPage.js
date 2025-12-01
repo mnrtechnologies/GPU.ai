@@ -16,7 +16,7 @@ const VisionPage = () => {
         <section>
           <h1 className="text-4xl font-extrabold mb-4">Our Vision</h1>
           <p className="max-w-7xl text-base leading-relaxed">
-            At NovaCore, we envision a future where AI infrastructure is not just a tool, but a catalyst for innovation. We're building the foundation that enables organizations to push the boundaries of what's possible with artificial intelligence.
+            At GPU.ai, we envision a future where AI infrastructure is not just a tool, but a catalyst for innovation. We're building the foundation that enables organizations to push the boundaries of what's possible with artificial intelligence.
           </p>
         </section>
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl">

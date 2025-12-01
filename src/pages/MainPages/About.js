@@ -19,7 +19,7 @@ const About = () => {
       <FadeInWhenVisible>
         <HeroSection
           heading="Pioneering the Future of AI Infrastructure"
-          subheading="NovaCore is revolutionizing AI infrastructure with cutting-edge technology and unparalleled performance. Join us in shaping the future of AI computing."
+          subheading="GPU.ai is revolutionizing AI infrastructure with cutting-edge technology and unparalleled performance. Join us in shaping the future of AI computing."
           button1Text="Join Our Team →"
           button2Text="Learn More"
           stats={stats}

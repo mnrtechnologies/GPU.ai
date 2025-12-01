@@ -21,7 +21,7 @@ const InnovationSafety = () => {
 
         {/* First Paragraph */}
         <p className="text-[17px] leading-[1.6] font-normal max-w-[900px] mx-auto text-center">
-          NovaCore is dedicated to responsible AI development and deployment practices,
+          GPU.ai is dedicated to responsible AI development and deployment practices,
           prioritizing safety, security, and transparency in all our endeavors.
           We believe that AI has the potential to transform industries and improve lives,
           and we're committed to realizing that potential while minimizing the risks.

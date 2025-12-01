@@ -10,7 +10,7 @@ const LegalInfo = () => {
           Partnership & Integration Guidelines
         </h2>
         <p className="mb-6">
-          As a technology partner, NovaCore provides comprehensive support and
+          As a technology partner, GPU.ai provides comprehensive support and
           guidelines for successful integration and deployment of our AI
           solutions. Our partnership framework ensures both parties maintain
           high standards of security, performance, and ethical AI usage.
@@ -71,7 +71,7 @@ const LegalInfo = () => {
           <i className="fas fa-building text-[#A800FF]"></i>
           Company Information
         </h2>
-        <p className="mb-4">NovaCore Technologies Inc.</p>
+        <p className="mb-4">GPU.ai Technologies Inc.</p>
         <p className="mb-4">Registration Number: DE-123456789</p>
         <p className="mb-4">Incorporated: Delaware, United States</p>
         <p className="mb-4">Tax ID: XX-XXXXXXX</p>
@@ -140,7 +140,7 @@ const LegalInfo = () => {
           International Operations
         </h2>
         <p className="mb-3">
-          NovaCore operates globally and complies with regional regulations
+          GPU.ai operates globally and complies with regional regulations
           including:
         </p>
         <ul className="list-disc list-inside space-y-1">
@@ -164,17 +164,17 @@ const LegalInfo = () => {
             <div>
               <span className="font-semibold">General Legal Inquiries:</span>
               <br />
-              legal@novacore.com
+              legal@GPU.ai.com
             </div>
             <div>
               <span className="font-semibold">Compliance Office:</span>
               <br />
-              compliance@novacore.com
+              compliance@GPU.ai.com
             </div>
             <div>
               <span className="font-semibold">Mailing Address:</span>
               <br />
-              NovaCore Legal Department
+              GPU.ai Legal Department
               <br />
               123 Innovation Drive
               <br />
@@ -187,12 +187,12 @@ const LegalInfo = () => {
             <div>
               <span className="font-semibold">Privacy Concerns:</span>
               <br />
-              privacy@novacore.com
+              privacy@GPU.ai.com
             </div>
             <div>
               <span className="font-semibold">Press & Media:</span>
               <br />
-              press@novacore.com
+              press@GPU.ai.com
             </div>
           </div>
         </div>

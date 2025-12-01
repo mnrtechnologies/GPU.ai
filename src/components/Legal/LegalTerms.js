@@ -7,7 +7,7 @@ const LegalTerms = () => {
     "Any unauthorized access or security breaches must be reported immediately",
     'The software is provided "as is" without warranty of any kind',
     "Users are responsible for maintaining secure backup procedures for their data",
-    "NovaCore reserves the right to modify or discontinue features with notice",
+    "GPU.ai reserves the right to modify or discontinue features with notice",
     "Usage of the platform must comply with all applicable laws and regulations",
     "Resource limits and quotas must be adhered to as specified in the service plan",
     "Users must implement appropriate security measures for their applications",
@@ -35,9 +35,9 @@ const LegalTerms = () => {
   ];
 
   const intellectualPropertyRights = [
-    "All platform code, design, and infrastructure remain NovaCore's property",
+    "All platform code, design, and infrastructure remain GPU.ai's property",
     "User-generated AI models and data remain the user's intellectual property",
-    "NovaCore retains rights to platform improvements derived from usage patterns",
+    "GPU.ai retains rights to platform improvements derived from usage patterns",
     "Users grant limited license for platform optimization and support",
     "Third-party components are subject to their respective licenses",
     "Custom developments require separate IP agreements",

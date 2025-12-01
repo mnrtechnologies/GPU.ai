@@ -17,7 +17,7 @@ const RightComponent = () => {
       {/* Logo */}
       <Link to="/">
         <div className="flex justify-center items-center flex-grow min-h-[120px] sm:min-h-[180px]">
-          <p className="text-2xl sm:text-5xl font-semibold">Novacore</p>
+          <p className="text-2xl sm:text-5xl font-semibold">GPU.ai</p>
         </div>
       </Link>
 

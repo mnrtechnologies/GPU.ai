@@ -33,7 +33,7 @@ const timelineData = [
     year: '2020',
     title: 'Foundation',
     content:
-      'NovaCore was founded with a vision to democratize AI infrastructure. Started with a team of 10 passionate engineers and researchers committed to making advanced AI capabilities accessible to organizations of all sizes.',
+      'GPU.ai was founded with a vision to democratize AI infrastructure. Started with a team of 10 passionate engineers and researchers committed to making advanced AI capabilities accessible to organizations of all sizes.',
     bgColor: 'bg-red-50',
   },
 ];

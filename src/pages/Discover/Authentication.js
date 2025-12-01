@@ -61,7 +61,7 @@ const Authentication = () => {
       <FadeInWhenVisible>
         <Hero
           title="Identity and Access Management"
-          description="Management Secure access to your console and deployed models with NovaCore's IAM. Set up fine-grained role-based access control and multi-factor authentication."
+          description="Management Secure access to your console and deployed models with GPU.ai's IAM. Set up fine-grained role-based access control and multi-factor authentication."
           gradientRight="rgba(255,255,255,0.12)"
           gradientBottom="rgba(255,255,255,0.12)"
         />

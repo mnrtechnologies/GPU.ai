@@ -26,7 +26,7 @@ const ContactUs = () => {
       `Name: ${firstName} ${lastName}\nEmail: ${email}\nCompany: ${company}\nPhone: ${phone}\n\nMessage:\n${details}`
     );
 
-    window.location.href = `mailto:contact@novacorein.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contact@GPUaiin.com?subject=${subject}&body=${body}`;
   };
 
   return (

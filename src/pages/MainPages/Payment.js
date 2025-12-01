@@ -46,7 +46,7 @@ const Payment = () => {
       key: process.env.REACT_APP_RAZORPAY_KEY_ID,
       amount: data.amount,
       currency: data.currency,
-      name: "Novacore",
+      name: "GPU.ai",
       description: "Test Mode",
       order_id: data.id,
       handler: async (response) => {

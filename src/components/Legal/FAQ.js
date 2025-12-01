@@ -5,32 +5,32 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "What security measures does NovaCore implement to protect AI workloads?",
+      question: "What security measures does GPU.ai implement to protect AI workloads?",
       answer:
-        "NovaCore implements enterprise-grade security measures including end-to-end encryption, secure enclaves, regular security audits, and compliance with SOC2 Type II and ISO 27001 standards. We also provide dedicated instances and VPCs for enhanced isolation.",
+        "GPU.ai implements enterprise-grade security measures including end-to-end encryption, secure enclaves, regular security audits, and compliance with SOC2 Type II and ISO 27001 standards. We also provide dedicated instances and VPCs for enhanced isolation.",
     },
     {
-      question: "How does NovaCore handle data privacy and GDPR compliance?",
+      question: "How does GPU.ai handle data privacy and GDPR compliance?",
       answer:
         "We maintain strict GDPR compliance by implementing data minimization, purpose limitation, and user consent mechanisms. All data is processed within GDPR-compliant data centers, and we provide tools for data portability and the right to be forgotten.",
     },
     {
-      question: "What are the terms for terminating a NovaCore subscription?",
+      question: "What are the terms for terminating a GPU.ai subscription?",
       answer:
         "Subscriptions can be terminated with 30 days written notice. Upon termination, we ensure secure data deletion and provide export options for your data. Pro-rated refunds are available for annual subscriptions.",
     },
     {
-      question: "Can I transfer my NovaCore license to another organization?",
+      question: "Can I transfer my GPU.ai license to another organization?",
       answer:
-        "License transfers require written approval from NovaCore and are subject to our transfer policy. Enterprise licenses may have specific transfer restrictions based on the agreement terms.",
+        "License transfers require written approval from GPU.ai and are subject to our transfer policy. Enterprise licenses may have specific transfer restrictions based on the agreement terms.",
     },
     {
-      question: "What is NovaCore's uptime guarantee and SLA terms?",
+      question: "What is GPU.ai's uptime guarantee and SLA terms?",
       answer:
         "We guarantee 99.9% uptime for our infrastructure, backed by our SLA. In case of downtime, credits are automatically applied to your account based on the duration and impact of the service interruption.",
     },
     {
-      question: "How does NovaCore handle intellectual property rights for AI models?",
+      question: "How does GPU.ai handle intellectual property rights for AI models?",
       answer:
         "Any AI models trained on our infrastructure remain your intellectual property. We maintain strict data segregation and do not claim any rights to your models, training data, or outputs.",
     },
@@ -40,7 +40,7 @@ const FAQ = () => {
         "We offer monthly and annual billing cycles. Payments are processed at the start of each billing period. Enterprise customers can arrange custom billing terms. We accept major credit cards and wire transfers.",
     },
     {
-      question: "How does NovaCore ensure compliance with industry regulations?",
+      question: "How does GPU.ai ensure compliance with industry regulations?",
       answer:
         "We maintain compliance with major regulations including HIPAA, GDPR, and SOC2. Regular audits are conducted, and we provide compliance reports upon request. Industry-specific compliance requirements can be addressed through custom agreements.",
     },
@@ -55,7 +55,7 @@ const FAQ = () => {
         "Disputes are initially handled through our support system. If needed, we offer mediation services. Legal matters are governed by the jurisdiction specified in your service agreement.",
     },
     {
-      question: "What happens to my data if NovaCore is acquired or ceases operations?",
+      question: "What happens to my data if GPU.ai is acquired or ceases operations?",
       answer:
         "Our contingency plan ensures data protection and provides a minimum 90-day notice for data export. We maintain escrow arrangements for critical services and provide transition assistance.",
     },
